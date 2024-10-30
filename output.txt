@@ -1,0 +1,1601 @@
+     id     |       full_name        | abbreviation |   nickname   |   city    |   state   | year_founded 
+------------+------------------------+--------------+--------------+-----------+-----------+--------------
+ 1610612737 | Atlanta Hawks          | ATL          | Hawks        | Atlanta   | Atlanta   |         1949
+ 1610612750 | Minnesota Timberwolves | MIN          | Timberwolves | Minnesota | Minnesota |         1989
+ 1610612752 | New York Knicks        | NYK          | Knicks       | New York  | New York  |         1946
+ 1610612754 | Indiana Pacers         | IND          | Pacers       | Indiana   | Indiana   |         1976
+ 1610612762 | Utah Jazz              | UTA          | Jazz         | Utah      | Utah      |         1974
+(5 rows)
+
+  game_id   | game_date  | team_id_home | team_abbreviation_home |     team_name_home     | pts_home | fgm_home | ftm_home | team_id_away | team_abbreviation_away |      team_name_away       | pts_away | fgm_away | ftm_away 
+------------+------------+--------------+------------------------+------------------------+----------+----------+----------+--------------+------------------------+---------------------------+----------+----------+----------
+ 0024700162 | 1948-02-28 | 1610612752   | NYK                    | New York Knicks        |       56 |       14 |       28 | 1610610024   | BAL                    | Baltimore Bullets         |       78 |       29 |       20
+ 0044900242 | 1950-03-23 | 1610612737   | TCB                    | Tri-Cities Blackhawks  |       76 |       19 |       38 | 1610610023   | AND                    | Anderson Packers          |       75 |       19 |       37
+ 0025200058 | 1952-11-23 | 1610612755   | SYR                    | Syracuse Nationals     |       76 |       19 |       38 | 1610612752   | NYK                    | New York Knicks           |       73 |       20 |       33
+ 0025200064 | 1952-11-26 | 1610612737   | MIH                    | Milwaukee Hawks        |       72 |       18 |       36 | 1610612765   | FTW                    | Ft. Wayne Zollner Pistons |       80 |       29 |       22
+ 0025200264 | 1953-02-14 | 1610612747   | MNL                    | Minneapolis Lakers     |       92 |       12 |       28 | 1610612744   | PHW                    | Philadelphia Warriors     |       84 |       32 |       20
+ 0025200329 | 1953-03-08 | 1610612747   | MNL                    | Minneapolis Lakers     |      100 |        4 |       18 | 1610612737   | MIH                    | Milwaukee Hawks           |       73 |       28 |       17
+ 0025900001 | 1959-10-17 | 1610612738   | BOS                    | Boston Celtics         |      129 |       30 |       29 | 1610612758   | CIN                    | Cincinnati Royals         |      125 |       46 |       33
+ 0026200070 | 1962-11-21 | 1610612765   | DET                    | Detroit Pistons        |      120 |       44 |       32 | 1610612755   | SYR                    | Syracuse Nationals        |      122 |       14 |       34
+ 0026300130 | 1963-12-18 | 1610612744   | SFW                    | San Francisco Warriors |      104 |       39 |       26 | 1610612737   | STL                    | St. Louis Hawks           |       96 |        6 |       24
+ 0049200070 | 1993-06-05 | 1610612756   | PHX                    | Phoenix Suns           |      123 |       30 |       57 | 1610612760   | SEA                    | Seattle SuperSonics       |      110 |       39 |       28
+ 0029400013 | 1994-11-05 | 1610612760   | SEA                    | Seattle SuperSonics    |      110 |       27 |       50 | 1610612762   | UTH                    | Utah Jazz                 |      103 |       36 |       22
+ 0029700072 | 1997-11-08 | 1610612759   | SAS                    | San Antonio Spurs      |       87 |       30 |       27 | 1610612762   | UTA                    | Utah Jazz                 |       80 |       19 |       39
+ 0029800361 | 1999-03-22 | 1610612749   | MIL                    | Milwaukee Bucks        |      115 |       42 |       25 | 1610612765   | DET                    | Detroit Pistons           |       86 |       21 |       41
+ 0021000284 | 2010-12-03 | 1610612743   | DEN                    | Denver Nuggets         |      109 |       27 |       45 | 1610612746   | LAC                    | Los Angeles Clippers      |      104 |       39 |       20
+ 0011400014 | 2014-10-07 | 1610612742   | DAL                    | Dallas Mavericks       |      108 |       26 |       47 | 1610612745   | HOU                    | Houston Rockets           |      111 |       36 |       29
+(15 rows)
+
+ period | comments_count 
+--------+----------------
+      1 |        3218908
+      2 |        3464505
+      3 |        3268847
+      4 |        3519660
+      5 |          98219
+      6 |          12888
+      7 |           2140
+      8 |            372
+(8 rows)
+
+ first_name |   last_name   | height 
+------------+---------------+--------
+ Kareem     | Abdul-Jabbar  | 7-2 
+ Wilt       | Chamberlain   | 7-1 
+ David      | Robinson      | 7-1 
+ Shaquille  | O'Neal        | 7-1 
+ Robert     | Parish        | 7-1 
+ Giannis    | Antetokounmpo | 7-0 
+ Hakeem     | Olajuwon      | 7-0 
+ Dirk       | Nowitzki      | 7-0 
+ Bob        | McAdoo        | 6-9 
+ Magic      | Johnson       | 6-9 
+ James      | Worthy        | 6-9 
+ Dave       | Cowens        | 6-9 
+ Karl       | Malone        | 6-9 
+ Elvin      | Hayes         | 6-9 
+ LeBron     | James         | 6-9 
+ Bob        | Pettit        | 6-9 
+ Larry      | Bird          | 6-9 
+ Scottie    | Pippen        | 6-8 
+(18 rows)
+
+  count  
+---------
+ 2857319
+(1 row)
+
+ player1_team_id | player1_team_name 
+-----------------+-------------------
+ 15019           | 
+ 12325           | 
+ 94              | 
+ 12330           | 
+ 1610616834      | 
+ 12304           | 
+ 93              | 
+ 12321           | 
+ 12323           | 
+ 12315           | 
+ 12308           | 
+ 15018           | 
+ 15017           | 
+ 12324           | 
+ 12328           | 
+ 41              | 
+ 15015           | 
+ 1610616833      | 
+ 15016           | 
+ 12329           | 
+ 50009           | 
+(21 rows)
+
+       team_name        | player_count 
+------------------------+--------------
+ Atlanta Hawks          |          176
+ Boston Celtics         |          159
+ Brooklyn Nets          |           92
+ Charlotte Hornets      |           59
+ Chicago Bulls          |          100
+ Cleveland Cavaliers    |          104
+ Dallas Mavericks       |           80
+ Denver Nuggets         |           99
+ Detroit Pistons        |          172
+ Golden State Warriors  |          197
+ Houston Rockets        |          105
+ Indiana Pacers         |           85
+ Los Angeles Clippers   |          115
+ Los Angeles Lakers     |          163
+ Memphis Grizzlies      |           59
+ Miami Heat             |           57
+ Milwaukee Bucks        |           91
+ Minnesota Timberwolves |           60
+ New Orleans Pelicans   |           37
+ New York Knicks        |          177
+ No Matching Team       |          929
+ Oklahoma City Thunder  |          109
+ Orlando Magic          |           56
+ Philadelphia 76ers     |          153
+ Phoenix Suns           |          117
+ Portland Trail Blazers |          100
+ Sacramento Kings       |          168
+ San Antonio Spurs      |           87
+ Toronto Raptors        |           46
+ Utah Jazz              |           94
+ Washington Wizards     |          125
+(31 rows)
+
+ first_name |  last_name  | birthdate  |       team_name        | year_founded 
+------------+-------------+------------+------------------------+--------------
+ Udonis     | Haslem      | 1980-06-09 | Miami Heat             |         1988
+ Kyle       | Lowry       | 1986-03-25 | Miami Heat             |         1988
+ Garrett    | Temple      | 1986-05-08 | New Orleans Pelicans   |         2002
+ Mike       | Conley      | 1987-10-11 | Minnesota Timberwolves |         1989
+ Thaddeus   | Young       | 1988-06-21 | Toronto Raptors        |         1995
+ Will       | Barton      | 1991-01-06 | Toronto Raptors        |         1995
+ Jonas      | Valanciunas | 1992-05-06 | New Orleans Pelicans   |         2002
+ Larry      | Nance Jr.   | 1993-01-01 | New Orleans Pelicans   |         2002
+ Chris      | Boucher     | 1993-01-11 | Toronto Raptors        |         1995
+ Otto       | Porter Jr.  | 1993-06-03 | Toronto Raptors        |         1995
+ Steven     | Adams       | 1993-07-20 | Memphis Grizzlies      |         1995
+ Marcus     | Smart       | 1994-03-06 | Memphis Grizzlies      |         1995
+ Pascal     | Siakam      | 1994-04-02 | Toronto Raptors        |         1995
+ Willy      | Hernangomez | 1994-05-27 | New Orleans Pelicans   |         2002
+ Brandon    | Ingram      | 1997-09-02 | New Orleans Pelicans   |         2002
+ Naji       | Marshall    | 1998-01-24 | New Orleans Pelicans   |         2002
+ Jose       | Alvarado    | 1998-04-12 | New Orleans Pelicans   |         2002
+ Herbert    | Jones       | 1998-10-06 | New Orleans Pelicans   |         2002
+ Jaxson     | Hayes       | 2000-05-23 | New Orleans Pelicans   |         2002
+ Dereon     | Seabron     | 2000-05-26 | New Orleans Pelicans   |         2002
+ Trey       | Murphy III  | 2000-06-18 | New Orleans Pelicans   |         2002
+ Zion       | Williamson  | 2000-07-06 | New Orleans Pelicans   |         2002
+(22 rows)
+
+  first_name  |     last_name      |                              neutraldescription                               
+--------------+--------------------+-------------------------------------------------------------------------------
+ Shareef      | Abdur-Rahim        |  Foul : Double Personal - Abdur-Rahim (2 PF), Marshall (1 PF)
+ Shareef      | Abdur-Rahim        |  Foul : Double Personal - Abdur-Rahim (2 PF), Williams (6 PF)
+ Shareef      | Abdur-Rahim        | Double Technical - Abdur-Rahim, Wingate
+ Shareef      | Abdur-Rahim        |  Foul : Double Personal - Abdur-Rahim (1 PF), Walker (2 PF)
+ Shareef      | Abdur-Rahim        | Double Technical - Abdur-Rahim, Pippen
+ Shareef      | Abdur-Rahim        |  Foul : Double Personal - Abdur-Rahim (4 PF), Rogers (4 PF)
+ Precious     | Achiuwa            | 
+ Steven       | Adams              | 
+ Bam          | Adebayo            | 
+ Bam          | Adebayo            | 
+ Bam          | Adebayo            | 
+ Bam          | Adebayo            | 
+ Bam          | Adebayo            | 
+ Arron        | Afflalo            | 
+ Arron        | Afflalo            |  Foul : Double Personal - Afflalo (2 PF), Foster (1 PF)
+ Alexis       | Ajinca             | Double Technical - Ajinca, Hawes (M.Kogut)
+ LaMarcus     | Aldridge           | 
+ Malik        | Allen              | 
+ Rafer        | Alston             | Double Technical - Alston, Davis
+ Rafer        | Alston             | Double Technical - Alston, Rondo
+ Rafer        | Alston             | 
+ Rafer        | Alston             | Double Technical - Alston, Mason
+ Jose         | Alvarado           | Double Technical - Alvarado, Perry (T.Maddox)
+ John         | Amaechi            |  Foul : Double Personal - Amaechi (1 PF), Mourning (2 PF)
+ Lou          | Amundson           | Double Technical - Amundson, McRoberts
+ Lou          | Amundson           |  Foul : Double Personal - Amundson (2 PF), McRoberts (3 PF)
+ Lou          | Amundson           | Double Technical - Amundson, Bonner
+ Alan         | Anderson           | Double Technical - Anderson, George
+ Alan         | Anderson           | Double Technical - Anderson, Caldwell-Pope
+ Nick         | Anderson           |  Foul : Double Personal - Anderson (3 PF), Marbury (4 PF)
+ Shandon      | Anderson           | Double Technical - Anderson, Williamson
+ Shandon      | Anderson           |  Foul : Double Personal - Anderson (3 PF), Williamson (3 PF)
+ Chris        | Anstey             | Double Technical - Anstey, Rodman
+ Giannis      | Antetokounmpo      | 
+ Giannis      | Antetokounmpo      |  Foul : Double Personal - Antetokounmpo (1 PF), Muhammad (4 PF)
+ Giannis      | Antetokounmpo      | Double Technical - Antetokounmpo, Muhammad
+ Giannis      | Antetokounmpo      | 
+ Giannis      | Antetokounmpo      | Double Technical - Antetokounmpo, Morris (C.Kirkland)
+ Giannis      | Antetokounmpo      | Double Technical - Antetokounmpo, Olynyk (E.Dalen)
+ Kostas       | Antetokounmpo      | 
+ Thanasis     | Antetokounmpo      | Double Technical - Antetokounmpo, Vincent (K.Scott)
+ Carmelo      | Anthony            | Double Technical - Anthony, Crowder (B.Taylor)
+ Cole         | Anthony            | 
+ Joel         | Anthony            | Double Technical - Anthony, Shel. Williams
+ Pero         | Antic              | Double Technical - Antic, Lowry
+ Pero         | Antic              | Double Technical - Antic, Mark Morris
+ O.G.         | Anunoby            | Double Technical - Anunoby, Harrell (K.Scott)
+ Rafael       | Araujo             | Double Technical - Araujo, Traylor
+ Gilbert      | Arenas             | Double Technical - Arenas, Burks
+ Darrell      | Armstrong          | Double Technical - Armstrong, Hardaway
+ Darrell      | Armstrong          | Double Technical - Armstrong, Hardaway
+ Darrell      | Armstrong          | Double Technical - Armstrong, Allen
+ Darrell      | Armstrong          |  Foul : Double Personal - Armstrong (1 PF), Cassell (2 PF)
+ Darrell      | Armstrong          |  Foul : Double Personal - Armstrong (3 PF), Allen (2 PF)
+ Chucky       | Atkins             |  Foul : Double Personal - Atkins (2 PF), House (4 PF)
+ Jeff         | Ayres              | Double Technical - Ayres, Fisher
+ Deandre      | Ayton              | 
+ Deandre      | Ayton              | Double Technical - Ayton, Finney-Smith (P.Fraher)
+ Deandre      | Ayton              | 
+ Deandre      | Ayton              | 
+ Dalibor      | Bagaric            | Double Technical - Bagaric, Jones
+ Dalibor      | Bagaric            | 
+ Dalibor      | Bagaric            | Double Technical - Bagaric, Baker
+ Thurl        | Bailey             |  Foul : Double Personal - Bailey (1 PF), Funderburke (1 PF)
+ Vin          | Baker              | Double Technical - Baker, Porter
+ Vin          | Baker              |  Foul : Double Personal - Baker (2 PF), Olajuwon (2 PF)
+ Vin          | Baker              |  Foul : Double Personal - Baker (4 PF), Divac (3 PF)
+ Vin          | Baker              | Double Technical - Baker, Wallace
+ Vin          | Baker              | 
+ Vin          | Baker              |  Foul : Double Personal - Baker (3 PF), Van Horn (3 PF)
+ Vin          | Baker              | Double Technical - Baker, Bradley
+ Vin          | Baker              |  Foul : Double Personal - Baker (1 PF), Bradley (4 PF)
+ Vin          | Baker              |  Foul : Double Personal - Baker (2 PF), Robinson (3 PF)
+ Vin          | Baker              |  Foul : Double Personal - Baker (3 PF), Collins (4 PF)
+ LaMelo       | Ball               | 
+ Desmond      | Bane               | Double Technical - Bane, Hyland (J.Schroeder)
+ Marcus       | Banks              |  Foul : Double Personal - Banks (2 PF), James (2 PF)
+ Dalano       | Banton             | 
+ J.J.         | Barea              | Double Technical - Barea, Carter-Williams (M.Ayotte)
+ Harrison     | Barnes             | 
+ Matt         | Barnes             | Double Technical - Barnes, Rondo
+ Matt         | Barnes             | Double Technical - Barnes, Perkins
+ Matt         | Barnes             |  Foul : Double Personal - Barnes (2 PF), Zeller (3 PF)
+ Scottie      | Barnes             | 
+ Scottie      | Barnes             | 
+ RJ           | Barrett            | 
+ Dana         | Barros             | Double Technical - Barros, Oakley
+ Brent        | Barry              |  Foul : Double Personal - Barry (2 PF), Wells (3 PF)
+ Tony         | Battie             |  Foul : Double Personal - Battie (3 PF), Outlaw (2 PF)
+ Tony         | Battie             |  Foul : Double Personal - Battie (3 PF), Stepania (1 PF)
+ Shane        | Battier            |  Foul : Double Personal - Battier (5 PF), Brown (4 PF)
+ Shane        | Battier            |  Foul : Double Personal - Battier (2 PF), Davis (2 PF)
+ Raja         | Bell               | Double Technical - Bell, Lewis
+ Raja         | Bell               | Double Technical - Bell, Garnett
+ Raja         | Bell               |  Foul : Double Personal - Bell (3 PF), Powell (1 PF)
+ Raja         | Bell               | Double Technical - Bell, Cleamons
+ Raja         | Bell               | Double Technical - Bell, Walker
+ Davis        | Bertans            | Double Technical - Bertans, Clarkson (D.Guthrie)
+ Travis       | Best               | Double Technical - Best, Miller
+ Travis       | Best               | 
+ Travis       | Best               | Double Technical - Best, Brown
+ Travis       | Best               | Double Technical - Best, Johnson
+ Mike         | Bibby              | Double Technical - Bibby, Potapenko
+ Mike         | Bibby              | Double Technical - Bibby, Pierce
+ Goga         | Bitadze            | Double Technical - Bitadze, Duren (S.Wright)
+ Bismack      | Biyombo            |  Foul : Double Personal - Biyombo (2 PF), Sharpe (1 PF) (E.Lewis)
+ Tarik        | Black              |  Foul : Double Personal - Black (2 PF), Jordan (2 PF) (S.Twardoski)
+ Tarik        | Black              | Double Technical - Black, Nene (G.Zielinski)
+ Steve        | Blake              | Double Technical - Blake, Faried
+ Steve        | Blake              |  Foul : Double Personal - Blake (2 PF), Fisher (2 PF)
+ Steve        | Blake              | Double Technical - Blake, Howard
+ Steve        | Blake              | Double Technical - Blake, Koufos
+ Andray       | Blatche            |  Foul : Double Personal - Blatche (3 PF), Williams (5 PF)
+ Corie        | Blount             | Double Technical - Blount, Ilgauskas
+ Mark         | Blount             | Double Technical - Blount, O'Neal
+ Mark         | Blount             |  Foul : Double Personal - Blount (3 PF), Magloire (2 PF)
+ Mark         | Blount             | 
+ Mark         | Blount             | Double Technical - Blount, Bell
+ Mark         | Blount             | Double Technical - Blount, Miles
+ Bojan        | Bogdanovic         |  Foul : Double Personal - Bogdanovic (3 PF), Hunter (4 PF) (B.Taylor)
+ Andrew       | Bogut              | Double Technical - Bogut, Thomas
+ Andrew       | Bogut              | Double Technical - Bogut, Garnett
+ Andrew       | Bogut              | Double Technical - Bogut, Blake
+ Andrew       | Bogut              | Double Technical - Bogut, Powe
+ Andrew       | Bogut              | 
+ Andrew       | Bogut              | Double Technical - Bogut, Cardinal
+ Andrew       | Bogut              | Double Technical - Bogut, Anthony
+ Andrew       | Bogut              | Double Technical - Bogut, Thomas
+ Andrew       | Bogut              | Double Technical - Bogut, Anthony
+ Matt         | Bonner             |  Foul : Double Personal - Bonner (1 PF), Przybilla (2 PF)
+ Devin        | Booker             | 
+ Devin        | Booker             | 
+ Devin        | Booker             | Double Technical - Booker, Kanter (S.Wright)
+ Devin        | Booker             | Double Technical - Booker, Nance Jr. (J.Sterling)
+ Devin        | Booker             | Double Technical - Booker, George (J.Williams)
+ Trevor       | Booker             | Double Technical - Booker, Richardson
+ Trevor       | Booker             | Double Technical - Booker, Griffin
+ Trevor       | Booker             | Double Technical - Booker, Gibson
+ Calvin       | Booth              | Double Technical - Booth, Foster
+ Carlos       | Boozer             | Double Technical - Boozer, Udoka
+ Carlos       | Boozer             |  Foul : Double Personal - Boozer (2 PF), Anthony (2 PF)
+ Carlos       | Boozer             | Double Technical - Boozer, Songaila
+ Carlos       | Boozer             |  Foul : Double Personal - Boozer (2 PF), Przybilla (2 PF)
+ Chris        | Boucher            |  Foul : Double Personal - Boucher (1 PF), Garuba (1 PF) (T.Maddox)
+ Bruce        | Bowen              |  Foul : Double Personal - Bowen (2 PF), Barkley (1 PF)
+ Bruce        | Bowen              | Double Technical - Bowen, Carter
+ Bruce        | Bowen              | 
+ Bruce        | Bowen              | Double Technical - Bowen, Allen
+ Bruce        | Bowen              | Double Technical - Bowen, Thomas
+ Shawn        | Bradley            | Double Technical - Bradley, B. Grant
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (3 PF), Wallace (3 PF)
+ Shawn        | Bradley            | Double Technical - Bradley, Magloire
+ Shawn        | Bradley            | Double Technical - Bradley, Thomas
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (3 PF), McCarty (3 PF)
+ Shawn        | Bradley            | Double Technical - Bradley, O'Neal
+ Shawn        | Bradley            | Double Technical - Bradley, DeClercq
+ Shawn        | Bradley            | Double Technical - Bradley, Harvey
+ Shawn        | Bradley            | Double Technical - Bradley, Ellis
+ Shawn        | Bradley            | Double Technical - Bradley, Davis
+ Shawn        | Bradley            | Double Technical - Bradley, George
+ Shawn        | Bradley            | Double Technical - Bradley, Potapenko
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (3 PF), Abdur-Rahim (1 PF)
+ Shawn        | Bradley            | Double Technical - Bradley, Davis
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (3 PF), Newman (2 PF)
+ Shawn        | Bradley            | Double Technical - Bradley, Fox
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (2 PF), Garrett (2 PF)
+ Shawn        | Bradley            | Double Technical - Bradley, Posey
+ Shawn        | Bradley            | Double Technical - Bradley, Smith
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (3 PF), Fizer (5 PF)
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (2 PF), Posey (1 PF)
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (2 PF), Ostertag (2 PF)
+ Shawn        | Bradley            | Double Technical - Bradley, Olowokandi
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (6 PF), Thomas (4 PF)
+ Shawn        | Bradley            | Double Technical - Bradley, Campbell
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (3 PF), Fox (3 PF)
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (5 PF), Rose (4 PF)
+ Shawn        | Bradley            |  Foul : Double Personal - Bradley (4 PF), Curry (2 PF)
+ Shawn        | Bradley            | Double Technical - Bradley, Harrington
+ Shawn        | Bradley            | Double Technical - Bradley, Moore
+ Shawn        | Bradley            | Double Technical - Bradley, Dunleavy
+ Corey        | Brewer             | 
+ Miles        | Bridges            | 
+ Miles        | Bridges            | Double Technical - Bridges, Drummond (B.Kennedy)
+ Dillon       | Brooks             | Double Technical - Brooks, Dedmon (K.Scott)
+ Dillon       | Brooks             | Double Technical - Brooks, Jackson (M.Ervin)
+ Dillon       | Brooks             | Double Technical - Brooks, Durant (J.Goble)
+ Jaylen       | Brown              | Double Technical - Brown, Dedmon (S.Foster)
+ Jaylen       | Brown              | 
+ Jaylen       | Brown              | 
+ Jaylen       | Brown              | 
+ Kwame        | Brown              | Double Technical - Brown, Collins
+ Markel       | Brown              | Double Technical - Brown, Sessions (M.Ervin)
+ P.J.         | Brown              | Double Technical - Brown, Oakley
+ Randy        | Brown              | Double Technical - Brown, Overton
+ Randy        | Brown              |  Foul : Double Personal - Brown (1 PF), Marbury (1 PF)
+ Randy        | Brown              | Double Technical - Brown, Bryant
+ Randy        | Brown              | Double Technical - Brown, Knight
+ Randy        | Brown              | Double Technical - Brown, Childs
+ Rick         | Brunson            |  Foul : Double Personal - Brunson (2 PF), Marbury (1 PF)
+ Kobe         | Bryant             | Double Technical - Bryant, Perkins
+ Kobe         | Bryant             |  Foul : Double Personal - Bryant (2 PF), Price (2 PF)
+ Kobe         | Bryant             | Double Technical - Bryant, Jones
+ Kobe         | Bryant             | Double Technical - Bryant, Henderson
+ Kobe         | Bryant             | Double Technical - Bryant, Howard
+ Kobe         | Bryant             |  Foul : Double Personal - Bryant (2 PF), Randolph (3 PF)
+ Kobe         | Bryant             | Double Technical - Bryant, Harpring
+ Kobe         | Bryant             |  Foul : Double Personal - Bryant (1 PF), James (4 PF)
+ Kobe         | Bryant             |  Foul : Double Personal - Bryant (3 PF), Allen (5 PF)
+ Kobe         | Bryant             | Double Technical - Bryant, Duncan
+ Kobe         | Bryant             | Double Technical - Bryant, Martin
+ Kobe         | Bryant             | 
+ Kobe         | Bryant             | Double Technical - Bryant, D. Williams
+ Kobe         | Bryant             | Double Technical - Bryant, Bell
+ Kobe         | Bryant             | Double Technical - Bryant, Carter
+ Kobe         | Bryant             | Double Technical - Bryant, Childs
+ Greg         | Buckner            |  Foul : Double Personal - Buckner (3 PF), Mullin (4 PF)
+ Jud          | Buechler           | Double Technical - Buechler, Thomas
+ Caron        | Butler             |  Foul : Double Personal - Butler (1 PF), Nash (1 PF)
+ Jackie       | Butler             | Double Technical - Butler, McDyess
+ Jackie       | Butler             |  Foul : Double Personal - Butler (4 PF), Camby (5 PF)
+ Jimmy        | Butler             | 
+ Andrew       | Bynum              | Double Technical - Bynum, Kaman
+ Andrew       | Bynum              | 
+ Andrew       | Bynum              | Double Technical - Bynum, Maxiell
+ Andrew       | Bynum              | Double Technical - Bynum, O'Neal
+ Andrew       | Bynum              | 
+ Jason        | Caffey             |  Foul : Double Personal - Caffey (3 PF), Reid (2 PF)
+ Marcus       | Camby              | Double Technical - Camby, Przybilla
+ Marcus       | Camby              | 
+ Elden        | Campbell           |  Foul : Double Personal - Campbell (1 PF), Dele (4 PF)
+ Elden        | Campbell           |  Foul : Double Personal - Campbell (3 PF), Hammonds (1 PF)
+ Elden        | Campbell           | Double Technical - Campbell, Hornacek
+ Brian        | Cardinal           | Double Technical - Cardinal, James
+ Brian        | Cardinal           |  Foul : Double Personal - Cardinal (3 PF), Harrington (2 PF)
+ DeMarre      | Carroll            | Double Technical - Carroll, Pierce (M.Callahan)
+ DeMarre      | Carroll            | Double Technical - Carroll, Anthony
+ Wendell      | Carter Jr.         | 
+ Wendell      | Carter Jr.         | Double Technical - Carter Jr., Bazley (J.Capers)
+ Wendell      | Carter Jr.         | Double Technical - Carter Jr., McDaniels (E.Malloy)
+ Wendell      | Carter Jr.         | 
+ Kelvin       | Cato               |  Foul : Double Personal - Cato (3 PF), Strickland (3 PF)
+ Kelvin       | Cato               | Double Technical - Cato, Stackhouse
+ Kelvin       | Cato               | Double Technical - Cato, Malone
+ Kelvin       | Cato               |  Foul : Double Personal - Cato (1 PF), Madsen (1 PF)
+ Kelvin       | Cato               |  Foul : Double Personal - Cato (1 PF), Voskuhl (1 PF)
+ Kelvin       | Cato               | Double Technical - Cato, Ilgauskas
+ Kelvin       | Cato               | 
+ Kelvin       | Cato               |  Foul : Double Personal - Cato (2 PF), Funderburke (1 PF)
+ Kelvin       | Cato               |  Foul : Double Personal - Cato (6 PF), Olowokandi (3 PF)
+ Kelvin       | Cato               |  Foul : Double Personal - Cato (1 PF), Willis (2 PF)
+ Kelvin       | Cato               | Double Technical - Cato, Nene
+ Duane        | Causwell           | Double Technical - Causwell, Howard
+ Mario        | Chalmers           | Double Technical - Chalmers, Stephenson
+ Tyson        | Chandler           | Double Technical - Chandler, Speights
+ Wilson       | Chandler           | Double Technical - Chandler, Smart (M.McCutchen)
+ Chris        | Childs             | Double Technical - Childs, Christie
+ Chris        | Childs             | Double Technical - Childs, Willis
+ Chris        | Childs             | Double Technical - Childs, Crotty
+ Chris        | Childs             | Double Technical - Childs, Hardaway
+ Marquese     | Chriss             | Double Technical - Chriss, Jackson (R.Acosta)
+ Josh         | Christopher        | 
+ Keon         | Clark              |  Foul : Double Personal - Clark (5 PF), Harrington (4 PF)
+ Keon         | Clark              | 
+ Speedy       | Claxton            | 
+ Speedy       | Claxton            | Double Technical - Claxton, Miller
+ Speedy       | Claxton            | Double Technical - Claxton, Payton
+ Norris       | Cole               | Double Technical - Cole, Jennings
+ Norris       | Cole               | Double Technical - Cole, Watson
+ Norris       | Cole               | Double Technical - Cole, Ayres
+ Bimbo        | Coles              | Double Technical - Coles, Eisley
+ Jason        | Collier            | Double Technical - Collier, Campbell
+ Jason        | Collier            | 
+ Jason        | Collins            | Double Technical - Collins, Nowitzki
+ Jason        | Collins            | 
+ Jason        | Collins            | Double Technical - Collins, Alston
+ Jason        | Collins            | Double Technical - Collins, Mihm
+ Jason        | Collins            | 
+ Jason        | Collins            | Double Technical - Collins, Hamilton
+ John         | Collins            | 
+ John         | Collins            |  Foul : Double Personal - Collins (3 PF), Thybulle (4 PF) (T.Ford)
+ John         | Collins            |  Foul : Double Personal - Collins (5 PF), Bertans (1 PF) (S.Corbin)
+ John         | Collins            | 
+ John         | Collins            | Double Technical - Collins, Murray (G.Petraitis)
+ John         | Collins            | Double Technical - Collins, Embiid (S.Foster)
+ Zach         | Collins            | Double Technical - Collins, Morris Sr. (S.Wright)
+ Zach         | Collins            | Double Technical - Collins, Brooks (E.Scott)
+ Nick         | Collison           |  Foul : Double Personal - Collison (3 PF), Magloire (1 PF)
+ DeMarcus     | Cousins            | Double Technical - Cousins, McGruder (E.Lewis)
+ DeMarcus     | Cousins            | Double Technical - Cousins, Jones (E.Malloy)
+ Jordan       | Crawford           | Double Technical - Crawford, Pierce
+ Dante        | Cunningham         |  Foul : Double Personal - Cunningham (4 PF), Speights (2 PF) (D.Richardson)
+ Stephen      | Curry              | Double Technical - Curry, Beverley (D.Crawford)
+ Stephen      | Curry              | Double Technical - Curry, Beverley (S.Foster)
+ Erick        | Dampier            | Double Technical - Dampier, Nene
+ Antonio      | Daniels            | Double Technical - Daniels, Magloire
+ Sasha        | Danilovic          | Double Technical - Danilovic, Williams
+ Anthony      | Davis              | 
+ Anthony      | Davis              | Double Technical - Davis, Ayton (J.Van Duyne)
+ Baron        | Davis              | 
+ Baron        | Davis              | Double Technical - Davis, Carter
+ Baron        | Davis              |  Foul : Double Personal - Davis (2 PF), Wells (2 PF)
+ Baron        | Davis              | Double Technical - Davis, Hardaway
+ Dale         | Davis              |  Foul : Double Personal - Davis (3 PF), Dalembert (3 PF)
+ Dale         | Davis              | 
+ Dale         | Davis              | 
+ Dale         | Davis              | 
+ Dale         | Davis              | 
+ Dale         | Davis              | 
+ Dale         | Davis              | Double Technical - Davis, Dalembert
+ Dale         | Davis              | 
+ Dale         | Davis              | 
+ Dale         | Davis              | 
+ Dale         | Davis              |  Foul : Double Personal - Davis (3 PF), Stewart (6 PF)
+ Glen         | Davis              |  Foul : Double Personal - Davis (4 PF), Love (3 PF)
+ Glen         | Davis              | 
+ Glen         | Davis              | 
+ Glen         | Davis              | Double Technical - Davis, Nene
+ Glen         | Davis              | Double Technical - Davis, Haslem
+ DeMar        | DeRozan            | 
+ DeMar        | DeRozan            | Double Technical - DeRozan, Portis (B.Kennedy)
+ Terry        | Dehere             |  Foul : Double Personal - Dehere (1 PF), Burrell (3 PF)
+ Malcolm      | Delaney            | Double Technical - Delaney, Bullock (J.Goble)
+ Hamidou      | Diallo             | Double Technical - Diallo, Robinson (D.Taylor)
+ Hamidou      | Diallo             |  Foul : Double Personal - Diallo (1 PF), Anunoby (1 PF) (E.Malloy)
+ Michael      | Dickerson          | 
+ Michael      | Dickerson          | Double Technical - Dickerson, Pierce
+ Michael      | Dickerson          |  Foul : Double Personal - Dickerson (1 PF), Pippen (1 PF)
+ Spencer      | Dinwiddie          | 
+ Michael      | Doleac             | 
+ Luka         | Doncic             | Double Technical - Doncic, M. Wagner (S.Wright)
+ Luka         | Doncic             | Double Technical - Doncic, Harrell (J.Goble)
+ Luka         | Doncic             | 
+ Luka         | Doncic             | Double Technical - Doncic, Booker (E.Lewis)
+ Predrag      | Drobnjak           | 
+ Predrag      | Drobnjak           |  Foul : Double Personal - Drobnjak (2 PF), Magloire (4 PF)
+ Jared        | Dudley             | Double Technical - Dudley, Jennings (K.Mauer)
+ Chris        | Duhon              | Double Technical - Duhon, Taylor
+ Chris        | Duhon              | Double Technical - Duhon, Taylor
+ Tim          | Duncan             | 
+ Tim          | Duncan             | Double Technical - Duncan, Durant
+ Tim          | Duncan             | 
+ Tim          | Duncan             | 
+ Tim          | Duncan             | Double Technical - Duncan, Ruffin
+ Tim          | Duncan             | 
+ Ledell       | Eackles            | Double Technical - Eackles, Coleman
+ Anthony      | Edwards            | Double Technical - Edwards, Butler (C.Blair)
+ Howard       | Eisley             | Double Technical - Eisley, Hunter
+ Howard       | Eisley             |  Foul : Double Personal - Eisley (2 PF), Mayberry (1 PF)
+ Howard       | Eisley             |  Foul : Double Personal - Eisley (4 PF), Armstrong (3 PF)
+ Howard       | Eisley             | Double Technical - Eisley, Ginobili
+ Mario        | Elie               |  Foul : Double Personal - Elie (2 PF), Phills (1 PF)
+ CJ           | Elleby             | 
+ Sean         | Elliott            |  Foul : Double Personal - Elliott (3 PF), Russell (3 PF)
+ LaPhonso     | Ellis              |  Foul : Double Personal - L. Ellis (4 PF), Gatling (4 PF)
+ LaPhonso     | Ellis              |  Foul : Double Personal - Ellis (3 PF), Baker (6 PF)
+ LaPhonso     | Ellis              | 
+ LaPhonso     | Ellis              | Double Technical - L. Ellis, Thorpe
+ LaPhonso     | Ellis              | 
+ Monta        | Ellis              | 
+ Melvin       | Ely                |  Foul : Double Personal - Ely (1 PF), Stackhouse (1 PF)
+ Joel         | Embiid             | Double Technical - Embiid, Anunoby (J.Capers)
+ Joel         | Embiid             | 
+ Joel         | Embiid             | Double Technical - Embiid, Morris Sr. (K.Fitzgerald)
+ Joel         | Embiid             | 
+ Joel         | Embiid             | Double Technical - Embiid, Alvarado (M.Lindsay)
+ Joel         | Embiid             | Double Technical - Embiid, O'Neale (J.DeRosa)
+ Jeremy       | Evans              | 
+ Maurice      | Evans              | Double Technical - Evans, World Peace
+ Maurice      | Evans              |  Foul : Double Personal - Evans (1 PF), Lue (1 PF)
+ Reggie       | Evans              |  Foul : Double Personal - Evans (4 PF), Brand (1 PF)
+ Reggie       | Evans              |  Foul : Double Personal - Evans (1 PF), Howard (1 PF)
+ Reggie       | Evans              | Double Technical - Evans, Okur
+ Reggie       | Evans              | Double Technical - Evans, Stepania
+ Reggie       | Evans              |  Foul : Double Personal - Evans (3 PF), Outlaw (2 PF)
+ Reggie       | Evans              | Double Technical - Evans, Thomas
+ Tony         | Farmer             | Double Technical - Farmer, Garnett
+ Tony         | Farmer             | 
+ Bruno        | Fernando           | 
+ Danny        | Ferry              | Double Technical - Ferry, Gill
+ Danny        | Ferry              |  Foul : Double Personal - Ferry (1 PF), Walker (4 PF)
+ Danny        | Ferry              |  Foul : Double Personal - Ferry (2 PF), Long (2 PF)
+ Danny        | Ferry              |  Foul : Double Personal - Ferry (3 PF), A. Davis (3 PF)
+ Kyrylo       | Fesenko            | Double Technical - Fesenko, Haywood
+ Michael      | Finley             | Double Technical - Finley, Augmon
+ Michael      | Finley             |  Foul : Double Personal - Finley (3 PF), B. Williams (1 PF)
+ Michael      | Finley             | Double Technical - Finley, Daniels
+ Michael      | Finley             | Double Technical - Finley, Baker
+ Derek        | Fisher             | Double Technical - Fisher, Brooks
+ Derek        | Fisher             | Double Technical - Fisher, R. Allen
+ Derek        | Fisher             | Double Technical - Fisher, Dixon
+ Derek        | Fisher             |  Foul : Double Personal - Fisher (4 PF), R. Allen (4 PF)
+ Derek        | Fisher             | Double Technical - Fisher, Kaman
+ Derek        | Fisher             | Double Technical - Fisher, B. Davis
+ Derek        | Fisher             |  Foul : Double Personal - Fisher (3 PF), Szczerbiak (3 PF)
+ Derek        | Fisher             |  Foul : Double Personal - Fisher (3 PF), Robinson (1 PF)
+ Derek        | Fisher             |  Foul : Double Personal - Fisher (3 PF), Stockton (2 PF)
+ Derek        | Fisher             | Double Technical - Fisher, Jackson
+ Derek        | Fisher             |  Foul : Double Personal - Fisher (1 PF), Eisley (2 PF)
+ Danny        | Fortson            |  Foul : Double Personal - Fortson (4 PF), Gatling (4 PF)
+ Danny        | Fortson            |  Foul : Double Personal - Fortson (2 PF), Robinson (1 PF)
+ Danny        | Fortson            | Double Technical - Fortson, Gugliotta
+ Danny        | Fortson            |  Foul : Double Personal - Fortson (3 PF), Reeves (3 PF)
+ Danny        | Fortson            |  Foul : Double Personal - Fortson (3 PF), Perkins (2 PF)
+ Danny        | Fortson            |  Foul : Double Personal - Fortson (1 PF), Baker (2 PF)
+ Danny        | Fortson            | Double Technical - Fortson, Smith
+ Danny        | Fortson            | 
+ Danny        | Fortson            |  Foul : Double Personal - Fortson (1 PF), Smith (1 PF)
+ Danny        | Fortson            | Double Technical - Fortson, Mahorn
+ Greg         | Foster             |  Foul : Double Personal - Foster (2 PF), Stepania (2 PF)
+ Jeff         | Foster             | 
+ Jeff         | Foster             | 
+ Jeff         | Foster             |  Foul : Double Personal - Foster (1 PF), Powe (2 PF)
+ Jeff         | Foster             |  Foul : Double Personal - Foster (3 PF), Gatling (2 PF)
+ Jeff         | Foster             |  Foul : Double Personal - Foster (1 PF), Samake (3 PF)
+ Jeff         | Foster             | Double Technical - Foster, Randolph
+ Jeff         | Foster             |  Foul : Double Personal - Foster (2 PF), Ostertag (2 PF)
+ De'Aaron     | Fox                | Double Technical - Fox, Booker (N.Buchert)
+ De'Aaron     | Fox                | 
+ Rick         | Fox                | Double Technical - Fox, Blount
+ Rick         | Fox                | Double Technical - Fox, Baker
+ Rick         | Fox                | Double Technical - Fox, Snow
+ Rick         | Fox                | Double Technical - Fox, Schrempf
+ Rick         | Fox                | Double Technical - Fox, Henderson
+ Adonal       | Foyle              |  Foul : Double Personal - Foyle (2 PF), McDyess (3 PF)
+ Adonal       | Foyle              |  Foul : Double Personal - Foyle (3 PF), Randolph (1 PF)
+ Adonal       | Foyle              |  Foul : Double Personal - Foyle (6 PF), Bender (4 PF)
+ Steve        | Francis            | Double Technical - Francis, Payton
+ Steve        | Francis            | Double Technical - Francis, Fisher
+ Steve        | Francis            | Double Technical - Francis, House
+ Steve        | Francis            | Double Technical - Francis, Garnett
+ Steve        | Francis            | Double Technical - Francis, Stoudemire
+ Steve        | Francis            | Double Technical - Francis, Garnett
+ Steve        | Francis            |  Foul : Double Personal - Francis (3 PF), Vaughn (1 PF)
+ Steve        | Francis            | Double Technical - Francis, Bell
+ Steve        | Francis            | Double Technical - Francis, Williams
+ Steve        | Francis            | Double Technical - Francis, Najera
+ Steve        | Francis            | Double Technical - Francis, Brown
+ Steve        | Francis            | Double Technical - Francis, Payton
+ Joel         | Freeland           | Double Technical - Freeland, Williams
+ Joel         | Freeland           | Double Technical - Freeland, Muhammad
+ Channing     | Frye               | Double Technical - Frye, Howard
+ Channing     | Frye               | Double Technical - Frye, Brown
+ Channing     | Frye               | Double Technical - Frye, Bayless
+ Channing     | Frye               | Double Technical - Frye, Felton
+ Channing     | Frye               | Double Technical - Frye, Westbrook
+ Channing     | Frye               |  Foul : Double Personal - Frye (2 PF), Hollins (1 PF)
+ Lawrence     | Funderburke        | Double Technical - Funderburke, Thomas
+ Kevin        | Garnett            | Double Technical - Garnett, Potapenko
+ Kevin        | Garnett            | Double Technical - Garnett, Nesby
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (1 PF), Robinson (1 PF)
+ Kevin        | Garnett            | Double Technical - Garnett, Casspi (S.Corbin)
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (1 PF), Abdur-Rahim (1 PF)
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (3 PF), Outlaw (3 PF)
+ Kevin        | Garnett            | 
+ Kevin        | Garnett            | Double Technical - Garnett, Williams
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (2 PF), Grant (3 PF)
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (1 PF), Foster (2 PF)
+ Kevin        | Garnett            | Double Technical - Garnett, Najera
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (3 PF), Thomas (3 PF)
+ Kevin        | Garnett            | 
+ Kevin        | Garnett            | Double Technical - Garnett, Marbury
+ Kevin        | Garnett            | Double Technical - Garnett, Stojakovic
+ Kevin        | Garnett            | Double Technical - Garnett, Voskuhl
+ Kevin        | Garnett            | Double Technical - Garnett, Rivers
+ Kevin        | Garnett            | Double Technical - Garnett, Taylor
+ Kevin        | Garnett            | Double Technical - Garnett, Brand
+ Kevin        | Garnett            | Double Technical - Garnett, McDyess
+ Kevin        | Garnett            | Double Technical - Garnett, Malone
+ Kevin        | Garnett            | Double Technical - Garnett, World Peace
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (3 PF), Walker (3 PF)
+ Kevin        | Garnett            | Double Technical - Garnett, Olowokandi
+ Kevin        | Garnett            | Double Technical - Garnett, Pavlovic
+ Kevin        | Garnett            | Double Technical - Garnett, Turkoglu
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (1 PF), Valanciunas (1 PF) (P.Fraher)
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (2 PF), Davis (4 PF)
+ Kevin        | Garnett            |  Foul : Double Personal - Garnett (3 PF), Bender (3 PF)
+ Kevin        | Garnett            | Double Technical - Garnett, Bender
+ Kevin        | Garnett            | Double Technical - Garnett, Faried (Z.Zarba)
+ Dean         | Garrett            |  Foul : Double Personal - Garrett (1 PF), Johnson (1 PF)
+ Dean         | Garrett            | Double Technical - Garrett, Walker
+ Pat          | Garrity            |  Foul : Double Personal - Garrity (3 PF), Rose (2 PF)
+ Pat          | Garrity            | Double Technical - Garrity, Hill
+ Pat          | Garrity            | Double Technical - Garrity, Rose
+ Pat          | Garrity            | Double Technical - Garrity, Knight
+ Pat          | Garrity            |  Foul : Double Personal - Garrity (1 PF), Madsen (2 PF)
+ Pat          | Garrity            |  Foul : Double Personal - Garrity (3 PF), Long (2 PF)
+ Pat          | Garrity            | 
+ Pat          | Garrity            |  Foul : Double Personal - Garrity (2 PF), Thomas (3 PF)
+ Pau          | Gasol              | Double Technical - Gasol, Boozer
+ Pau          | Gasol              | Double Technical - Gasol, Chandler
+ Pau          | Gasol              | Double Technical - Gasol, Miller
+ Pau          | Gasol              | Double Technical - Gasol, Martin
+ Pau          | Gasol              | Double Technical - Gasol, James
+ Reggie       | Geary              |  Foul : Double Personal - Geary (1 PF), Washington (1 PF)
+ Devean       | George             | 
+ Devean       | George             | Double Technical - George, Thomas
+ Josh         | Giddey             |  Foul : Double Personal - Giddey (1 PF), Powell (1 PF) (D.Richardson)
+ Harry        | Giles III          | 
+ Shai         | Gilgeous-Alexander | 
+ Anthony      | Gill               | 
+ Manu         | Ginobili           | Double Technical - Ginobili, Payton
+ Manu         | Ginobili           | Double Technical - Ginobili, Stoudemire
+ Manu         | Ginobili           | Double Technical - Ginobili, Hamilton
+ Manu         | Ginobili           |  Foul : Double Personal - Ginobili (2 PF), Garnett (5 PF)
+ Manu         | Ginobili           |  Foul : Double Personal - Ginobili (5 PF), Davis (3 PF)
+ Manu         | Ginobili           |  Foul : Double Personal - Ginobili (1 PF), Harrington (2 PF)
+ Manu         | Ginobili           | Double Technical - Ginobili, Fisher
+ Drew         | Gooden             | 
+ Drew         | Gooden             | 
+ Archie       | Goodwin            | Double Technical - Goodwin, Schroder
+ Aaron        | Gordon             | Double Technical - Gordon, Beverley (M.Ervin)
+ Aaron        | Gordon             | Double Technical - Gordon, Westbrook (J.Goble)
+ Aaron        | Gordon             | Double Technical - Gordon, Green (Z.Zarba)
+ Eric         | Gordon             |  Foul : Double Personal - Gordon (2 PF), Richardson (1 PF)
+ Joey         | Graham             |  Foul : Double Personal - Graham (2 PF), Miller (3 PF)
+ Joey         | Graham             |  Foul : Double Personal - Graham (3 PF), Wallace (3 PF)
+ Danny        | Granger            | 
+ Danny        | Granger            | Double Technical - Granger, Weems
+ Danny        | Granger            | Double Technical - Granger, Johnson
+ Danny        | Granger            | Double Technical - Granger, Anderson
+ Danny        | Granger            | Double Technical - Granger, Randolph
+ Danny        | Granger            | Double Technical - Granger, Q. Richardson
+ Brian        | Grant              | 
+ Brian        | Grant              | Double Technical - Grant, Collins
+ Brian        | Grant              | Double Technical - Grant, Collins
+ Brian        | Grant              | Double Technical - Grant, O'Neal
+ Brian        | Grant              | Double Technical - Grant, Blount
+ Brian        | Grant              | 
+ Brian        | Grant              | 
+ Brian        | Grant              | Double Technical - Grant, Howard
+ Brian        | Grant              | Double Technical - Grant, Ratliff
+ Brian        | Grant              | 
+ Brian        | Grant              |  Foul : Double Personal - Grant (5 PF), Duncan (1 PF)
+ Brian        | Grant              | Double Technical - Grant, Przybilla
+ Brian        | Grant              | 
+ Harvey       | Grant              |  Foul : Double Personal - Grant (1 PF), B. Williams (1 PF)
+ Harvey       | Grant              |  Foul : Double Personal - Grant (2 PF), Longley (5 PF)
+ Harvey       | Grant              |  Foul : Double Personal - Grant (5 PF), Outlaw (2 PF)
+ Harvey       | Grant              | Double Technical - Grant, Stackhouse
+ Draymond     | Green              | 
+ Draymond     | Green              | Double Technical - D. Green, Ingram (E.Malloy)
+ Draymond     | Green              | Double Technical - Green, Stewart (E.Malloy)
+ Draymond     | Green              | Double Technical - Green, Porzingis (M.Lindsay)
+ Draymond     | Green              |  Foul : Double Personal - Green (2 PF), Adams (2 PF) (D.Crawford)
+ Draymond     | Green              | Double Technical - Green, Nene (E.Malloy)
+ Draymond     | Green              |  Foul : Double Personal - Green (3 PF), Blake (2 PF)
+ Draymond     | Green              | 
+ Draymond     | Green              | Double Technical - Green, Smith (T.Brothers)
+ Draymond     | Green              |  Foul : Double Personal - Green (2 PF), Dellavedova (1 PF) (M.McCutchen)
+ Draymond     | Green              | Double Technical - Green, Paul (Z.Zarba)
+ Draymond     | Green              | Double Technical - Green, Crowder (J.Goble)
+ Draymond     | Green              | 
+ Jalen        | Green              | Double Technical - Green, Young (M.Ervin)
+ Josh         | Green              | Double Technical - Green, Reaves (J.Goble)
+ Tom          | Gugliotta          | Double Technical - Gugliotta, Harrington
+ Tom          | Gugliotta          |  Foul : Double Personal - Gugliotta (2 PF), Dudley (2 PF)
+ Tom          | Gugliotta          |  Foul : Double Personal - Gugliotta (4 PF), Schrempf (2 PF)
+ Darvin       | Ham                |  Foul : Double Personal - Ham (1 PF), Harrington (2 PF)
+ Steve        | Hamer              |  Foul : Double Personal - Hamer (2 PF), Howard (2 PF)
+ Ben          | Handlogten         | Double Technical - Handlogten, Haywood
+ Derek        | Harper             | Double Technical - Harper, Overton
+ Ron          | Harper             |  Foul : Double Personal - Harper (1 PF), Kemp (2 PF)
+ Matt         | Harpring           |  Foul : Double Personal - Harpring (3 PF), Azubuike (4 PF)
+ Matt         | Harpring           | Double Technical - Harpring, Butler
+ Matt         | Harpring           |  Foul : Double Personal - Harpring (2 PF), Davis (3 PF)
+ Matt         | Harpring           |  Foul : Double Personal - Harpring (3 PF), Ginobili (2 PF)
+ Matt         | Harpring           | 
+ Matt         | Harpring           | Double Technical - Harpring, Webber
+ Al           | Harrington         | Double Technical - Harrington, Lynch
+ Al           | Harrington         | 
+ Al           | Harrington         | Double Technical - Harrington, Patterson
+ Isaiah       | Hartenstein        | Double Technical - Hartenstein, Jackson (R.Acosta)
+ Udonis       | Haslem             | Double Technical - Haslem, Stoudemire
+ Udonis       | Haslem             | Double Technical - Haslem, Stevenson
+ Udonis       | Haslem             | Double Technical - Haslem, Evans
+ Udonis       | Haslem             | Double Technical - Haslem, Duncan
+ Udonis       | Haslem             | 
+ Udonis       | Haslem             | 
+ Udonis       | Haslem             |  Foul : Double Personal - Haslem (2 PF), Swift (2 PF)
+ Udonis       | Haslem             | Double Technical - Haslem, Howard (S.Corbin)
+ Udonis       | Haslem             | 
+ Udonis       | Haslem             | Double Technical - Haslem, Stoudemire
+ Udonis       | Haslem             | 
+ Udonis       | Haslem             | 
+ Udonis       | Haslem             | Double Technical - Haslem, Nocioni
+ Udonis       | Haslem             | Double Technical - Haslem, Cato
+ Spencer      | Hawes              | 
+ Spencer      | Hawes              | Double Technical - Hawes, Hollins
+ Spencer      | Hawes              | 
+ Jaxson       | Hayes              | 
+ Brendan      | Haywood            | Double Technical - Haywood, West
+ Brendan      | Haywood            | Double Technical - Haywood, Richardson
+ Brendan      | Haywood            |  Foul : Double Personal - Haywood (2 PF), McKey (1 PF)
+ Brendan      | Haywood            | 
+ Brendan      | Haywood            | Double Technical - Haywood, Pachulia
+ Brendan      | Haywood            | Double Technical - Haywood, Ilgauskas
+ Alan         | Henderson          |  Foul : Double Personal - Henderson (1 PF), Willis (1 PF)
+ Alan         | Henderson          | Double Technical - Henderson, Dele
+ Cedric       | Henderson          |  Foul : Double Personal - Henderson (3 PF), Mills (3 PF)
+ Gerald       | Henderson          | Double Technical - Henderson, Gordon
+ Gerald       | Henderson          | Double Technical - Henderson, Q. Richardson
+ Gerald       | Henderson          | Double Technical - Henderson, Hibbert
+ Gerald       | Henderson          | Double Technical - Henderson, Ross
+ John         | Henson             | Double Technical - Henson, Barnes (M.Davis)
+ John         | Henson             | Double Technical - Henson, Warren (Z.Zarba)
+ Mario        | Hezonja            |  Foul : Double Personal - Hezonja (1 PF), Tucker (1 PF) (D.Jones)
+ George       | Hill               | Double Technical - G. Hill, Chandler
+ George       | Hill               | 
+ George       | Hill               | Double Technical - G. Hill, Terry
+ George       | Hill               | 
+ Grant        | Hill               |  Foul : Double Personal - Hill (3 PF), Payton (2 PF)
+ Jordan       | Hill               | 
+ Kirk         | Hinrich            | Double Technical - Hinrich, Haslem
+ Kirk         | Hinrich            | Double Technical - Hinrich, Williams
+ Kirk         | Hinrich            | Double Technical - Hinrich, Beal
+ Richaun      | Holmes             | 
+ Al           | Horford            | 
+ Robert       | Horry              | Double Technical - Horry, Harrington
+ Robert       | Horry              | Double Technical - Horry, Webber
+ Robert       | Horry              | Double Technical - Horry, Delk
+ Robert       | Horry              | Double Technical - Horry, Ostertag
+ Robert       | Horry              |  Foul : Double Personal - Horry (3 PF), Cummings (3 PF)
+ Robert       | Horry              |  Foul : Double Personal - Horry (1 PF), Ratliff (5 PF)
+ Robert       | Horry              | Double Technical - Horry, Garnett
+ Eddie        | House              |  Foul : Double Personal - House (1 PF), Gill (1 PF)
+ Eddie        | House              | Double Technical - House, Haywood
+ Eddie        | House              | Double Technical - House, Davis
+ Dwight       | Howard             | Double Technical - Howard, Butler (M.Davis)
+ Dwight       | Howard             |  Foul : Double Personal - Howard (1 PF), Whiteside (3 PF) (T.Maddox)
+ Dwight       | Howard             | Double Technical - Howard, Rivers (E.Lewis)
+ Juwan        | Howard             |  Foul : Double Personal - Howard (3 PF), Gatling (2 PF)
+ Juwan        | Howard             | Double Technical - Howard, Burrell
+ Juwan        | Howard             | Double Technical - Howard, McDaniel
+ Juwan        | Howard             | Double Technical - Howard, Rice
+ Juwan        | Howard             | Double Technical - Howard, Brown
+ Juwan        | Howard             |  Foul : Double Personal - Howard (3 PF), McDaniel (1 PF)
+ Juwan        | Howard             |  Foul : Double Personal - Howard (4 PF), Brown (3 PF)
+ Juwan        | Howard             |  Foul : Double Personal - Howard (2 PF), Wallace (3 PF)
+ Juwan        | Howard             |  Foul : Double Personal - Howard (2 PF), Person (3 PF)
+ Juwan        | Howard             |  Foul : Double Personal - Howard (2 PF), Moore (3 PF)
+ Juwan        | Howard             |  Foul : Double Personal - Howard (3 PF), Smith (2 PF)
+ Juwan        | Howard             |  Foul : Double Personal - Howard (3 PF), Conlon (2 PF)
+ Juwan        | Howard             |  Foul : Double Personal - Howard (2 PF), Potapenko (6 PF)
+ Kris         | Humphries          | Double Technical - Humphries, Griffin
+ Kris         | Humphries          |  Foul : Double Personal - Humphries (1 PF), Hansbrough (1 PF)
+ Kris         | Humphries          | 
+ Zydrunas     | Ilgauskas          | Double Technical - Ilgauskas, R. Wallace
+ Zydrunas     | Ilgauskas          | 
+ Zydrunas     | Ilgauskas          |  Foul : Double Personal - Ilgauskas (2 PF), Manning (3 PF)
+ Zydrunas     | Ilgauskas          | 
+ Zydrunas     | Ilgauskas          | Double Technical - Ilgauskas, Murphy
+ Zydrunas     | Ilgauskas          | Double Technical - Ilgauskas, Pierce
+ Zydrunas     | Ilgauskas          | 
+ Zydrunas     | Ilgauskas          | Double Technical - Ilgauskas, Finley
+ Zydrunas     | Ilgauskas          |  Foul : Double Personal - Ilgauskas (1 PF), Williams (1 PF)
+ Zydrunas     | Ilgauskas          | Double Technical - Ilgauskas, Lauderdale
+ Zydrunas     | Ilgauskas          |  Foul : Double Personal - Ilgauskas (2 PF), Williamson (2 PF)
+ Zydrunas     | Ilgauskas          | Double Technical - Ilgauskas, Grant
+ Zydrunas     | Ilgauskas          | Double Technical - Ilgauskas, White
+ Ersan        | Ilyasova           |  Foul : Double Personal - Ilyasova (2 PF), Haslem (2 PF)
+ Ersan        | Ilyasova           | 
+ Allen        | Iverson            |  Foul : Double Personal - Iverson (3 PF), Cassell (3 PF)
+ Allen        | Iverson            | Double Technical - Iverson, Lue
+ Allen        | Iverson            | Double Technical - Iverson, Vujacic
+ Allen        | Iverson            | Double Technical - Iverson, Robinson
+ Allen        | Iverson            | Double Technical - Iverson, Murdock
+ Jarrett      | Jack               | Double Technical - Jack, Nocioni
+ Bobby        | Jackson            | Double Technical - Jackson, Garnett
+ Bobby        | Jackson            | Double Technical - B. Jackson, Bell
+ Darnell      | Jackson            | Double Technical - D. Jackson, Brown
+ Jaren        | Jackson            |  Foul : Double Personal - Jackson (4 PF), Fox (5 PF)
+ Jermaine     | Jackson            |  Foul : Double Personal - Jackson (3 PF), Iverson (1 PF)
+ Mark         | Jackson            | Double Technical - Jackson, Davis
+ Mark         | Jackson            | Double Technical - Jackson, Pippen
+ Jaren        | Jackson Jr.        | 
+ Jaren        | Jackson Jr.        | 
+ Jaren        | Jackson Jr.        | 
+ Jaren        | Jackson Jr.        |  Foul : Double Personal - Jackson Jr. (3 PF), Bullock (1 PF) (S.Twardoski)
+ Mike         | James              |  Foul : Double Personal - James (3 PF), Atkins (2 PF)
+ Al           | Jefferson          | Double Technical - Jefferson, Garnett
+ Jared        | Jeffries           | 
+ Amir         | Johnson            |  Foul : Double Personal - Johnson (2 PF), Nene (3 PF)
+ Amir         | Johnson            | 
+ Amir         | Johnson            |  Foul : Double Personal - Johnson (2 PF), Battier (2 PF)
+ Anthony      | Johnson            | 
+ Avery        | Johnson            | Double Technical - Johnson, McDyess
+ Chris        | Johnson            | Double Technical - Johnson, West (H.Workman)
+ Nikola       | Jokic              | Double Technical - Jokic, Mohammed (M.McCutchen)
+ Nikola       | Jokic              | 
+ Nikola       | Jokic              |  Foul : Double Personal - Jokic (4 PF), Carter Jr. (3 PF) (D.Guthrie)
+ Nikola       | Jokic              | 
+ Nikola       | Jokic              | 
+ Nikola       | Jokic              | 
+ Nikola       | Jokic              | 
+ Nikola       | Jokic              | 
+ Alvin        | Jones              |  Foul : Double Personal - Jones (4 PF), Bagaric (2 PF)
+ Dahntay      | Jones              | Double Technical - D. Jones, Butler
+ Dahntay      | Jones              | Double Technical - D. Jones, Davis
+ Eddie        | Jones              | Double Technical - Jones, Blount
+ Eddie        | Jones              |  Foul : Double Personal - Jones (3 PF), Bender (2 PF)
+ Eddie        | Jones              | Double Technical - Jones, Tinsley
+ James        | Jones              | Double Technical - Jones, Hinrich
+ James        | Jones              | Double Technical - Jones, Pierce
+ Jumaine      | Jones              |  Foul : Double Personal - Jones (2 PF), Jefferson (3 PF)
+ Jumaine      | Jones              | Double Technical - Jones, Pierce
+ Kai          | Jones              | 
+ Popeye       | Jones              |  Foul : Double Personal - Jones (1 PF), Bremer (1 PF)
+ DeAndre      | Jordan             | Double Technical - Jordan, Nembhard (B.Schwab)
+ Michael      | Jordan             | Double Technical - Jordan, Childs
+ Michael      | Jordan             | Double Technical - Jordan, Rice
+ Michael      | Jordan             | Double Technical - Jordan, Childs
+ Michael      | Jordan             |  Foul : Double Personal - Jordan (1 PF), Jackson (3 PF)
+ Cory         | Joseph             | 
+ Chris        | Kaman              | 
+ Mario        | Kasun              | Double Technical - Kasun, Madsen
+ Adam         | Keefe              | Double Technical - Keefe, Gatling
+ Adam         | Keefe              | Double Technical - Keefe, Williams
+ Adam         | Keefe              | Double Technical - Keefe, Davis
+ Adam         | Keefe              |  Foul : Double Personal - Keefe (2 PF), Owens (1 PF)
+ Adam         | Keefe              |  Foul : Double Personal - Keefe (1 PF), Davis (4 PF)
+ Shawn        | Kemp               |  Foul : Double Personal - Kemp (1 PF), Willis (1 PF)
+ Shawn        | Kemp               | Double Technical - Kemp, Willis
+ Shawn        | Kemp               |  Foul : Double Personal - Kemp (4 PF), Willis (2 PF)
+ Shawn        | Kemp               |  Foul : Double Personal - Kemp (2 PF), McKey (2 PF)
+ Shawn        | Kemp               |  Foul : Double Personal - Kemp (6 PF), Brown (1 PF)
+ Jason        | Kidd               | Double Technical - Kidd, Tinsley
+ Jason        | Kidd               | Double Technical - Kidd, Tinsley
+ Michael      | Kidd-Gilchrist     | Double Technical - Kidd-Gilchrist, Valanciunas
+ Michael      | Kidd-Gilchrist     | 
+ Maxi         | Kleber             | Double Technical - Kleber, Anthony (M.Kogut)
+ Maxi         | Kleber             | 
+ Travis       | Knight             |  Foul : Double Personal - Knight (4 PF), Farmer (2 PF)
+ Christian    | Koloko             |  Foul : Double Personal - Koloko (3 PF), Schofield (1 PF) (J.Conley)
+ Nenad        | Krstic             |  Foul : Double Personal - Krstic (4 PF), R. Wallace (3 PF)
+ Nenad        | Krstic             |  Foul : Double Personal - Krstic (3 PF), Pollard (3 PF)
+ Raef         | LaFrentz           | 
+ Skal         | Labissiere         | 
+ Ty           | Lawson             | 
+ Ty           | Lawson             | 
+ Ty           | Lawson             | 
+ Courtney     | Lee                | Double Technical - Lee, Paul
+ David        | Lee                | 
+ Alex         | Len                | 
+ Rashard      | Lewis              | Double Technical - Lewis, Best
+ Rashard      | Lewis              |  Foul : Double Personal - Lewis (4 PF), Magloire (2 PF)
+ Damian       | Lillard            |  Foul : Double Personal - Lillard (5 PF), Brewer (2 PF)
+ Damian       | Lillard            | Double Technical - Lillard, Beverley
+ Damian       | Lillard            |  Foul : Double Personal - Lillard (1 PF), Middleton (3 PF)
+ Damian       | Lillard            | 
+ Nassir       | Little             | 
+ Randy        | Livingston         |  Foul : Double Personal - Livingston (1 PF), Miller (2 PF)
+ Shaun        | Livingston         | Double Technical - Livingston, Rivers
+ Kevon        | Looney             | 
+ Kyle         | Lowry              | Double Technical - Lowry, Clarkson (Z.Zarba)
+ Tyronn       | Lue                | Double Technical - Lue, Marion
+ Tyronn       | Lue                | Double Technical - Lue, Francis
+ Corey        | Maggette           | Double Technical - Maggette, Garnett
+ Corey        | Maggette           | Double Technical - Maggette, Allen
+ Corey        | Maggette           | Double Technical - Maggette, Stoudemire
+ Ian          | Mahinmi            | 
+ Karl         | Malone             |  Foul : Double Personal - Malone (2 PF), Horry (1 PF)
+ Karl         | Malone             | Double Technical - Malone, Coleman
+ Karl         | Malone             | Double Technical - Malone, Scott
+ Karl         | Malone             |  Foul : Double Personal - Malone (3 PF), Robinson (2 PF)
+ Karl         | Malone             |  Foul : Double Personal - Malone (3 PF), Gugliotta (2 PF)
+ Karl         | Malone             |  Foul : Double Personal - Malone (3 PF), Mahorn (4 PF)
+ Karl         | Malone             |  Foul : Double Personal - Malone (3 PF), Harrington (1 PF)
+ Karl         | Malone             | Double Technical - Malone, Williamson
+ Karl         | Malone             |  Foul : Double Personal - Malone (4 PF), Harrington (4 PF)
+ Karl         | Malone             | Double Technical - Malone, Rodman
+ Karl         | Malone             | Double Technical - Malone, Fizer
+ Karl         | Malone             |  Foul : Double Personal - Malone (4 PF), Rodman (5 PF)
+ Karl         | Malone             |  Foul : Double Personal - Malone (3 PF), Smith (4 PF)
+ Karl         | Malone             |  Foul : Double Personal - Malone (2 PF), Knight (2 PF)
+ Karl         | Malone             | Double Technical - Malone, Coleman
+ Karl         | Malone             | Double Technical - Malone, Weatherspoon
+ Karl         | Malone             |  Foul : Double Personal - Malone (3 PF), Potapenko (5 PF)
+ Karl         | Malone             | Double Technical - Malone, Pollard
+ Karl         | Malone             |  Foul : Double Personal - Malone (4 PF), Caffey (2 PF)
+ Karl         | Malone             | Double Technical - Malone, Taylor
+ Karl         | Malone             | Double Technical - Malone, Medvedenko
+ Karl         | Malone             | Double Technical - Malone, Willis
+ Karl         | Malone             | Double Technical - Malone, Harvey
+ Karl         | Malone             | Double Technical - Malone, Polynice
+ Karl         | Malone             |  Foul : Double Personal - Malone (3 PF), Outlaw (2 PF)
+ Karl         | Malone             |  Foul : Double Personal - Malone (2 PF), B. Grant (2 PF)
+ Terance      | Mann               | 
+ Stephon      | Marbury            | Double Technical - Marbury, Davis
+ Stephon      | Marbury            |  Foul : Double Personal - Marbury (2 PF), Redd (2 PF)
+ Stephon      | Marbury            | 
+ Donny        | Marshall           |  Foul : Double Personal - Marshall (3 PF), Gugliotta (3 PF)
+ Donyell      | Marshall           | Double Technical - Marshall, Johnson
+ Caleb        | Martin             | Double Technical - Martin, Koloko (T.Ford)
+ Kenyon       | Martin Jr.         | 
+ Kenyon       | Martin Jr.         | 
+ Kenyon       | Martin Jr.         | 
+ Tony         | Massenburg         | Double Technical - Massenburg, Malone
+ Tony         | Massenburg         |  Foul : Double Personal - Massenburg (2 PF), Stepania (1 PF)
+ Jason        | Maxiell            |  Foul : Double Personal - Maxiell (3 PF), Miller (1 PF)
+ Jason        | Maxiell            |  Foul : Double Personal - Maxiell (1 PF), Camby (3 PF)
+ Jason        | Maxiell            | Double Technical - Maxiell, Davis
+ Jason        | Maxiell            |  Foul : Double Personal - Maxiell (1 PF), James (4 PF)
+ Jason        | Maxiell            | Double Technical - Maxiell, Blake
+ O.J.         | Mayo               | Double Technical - Mayo, Harden
+ Rashad       | McCants            | Double Technical - McCants, Payton
+ Rashad       | McCants            | Double Technical - McCants, Richardson
+ Doug         | McDermott          |  Foul : Double Personal - McDermott (3 PF), Mathews (2 PF) (S.Wright)
+ Antonio      | McDyess            | 
+ Antonio      | McDyess            |  Foul : Double Personal - McDyess (3 PF), Varejao (2 PF)
+ Antonio      | McDyess            |  Foul : Double Personal - McDyess (2 PF), Howard (2 PF)
+ Derrick      | McKey              |  Foul : Double Personal - McKey (2 PF), Hardaway (3 PF)
+ Derrick      | McKey              |  Foul : Double Personal - McKey (4 PF), Gatling (3 PF)
+ Derrick      | McKey              | 
+ Derrick      | McKey              |  Foul : Double Personal - McKey (2 PF), Mason (1 PF)
+ Aaron        | McKie              |  Foul : Double Personal - McKie (4 PF), Cheaney (2 PF)
+ Keith        | McLeod             | Double Technical - McLeod, Najera
+ Slava        | Medvedenko         | 
+ Slava        | Medvedenko         | Double Technical - Medvedenko, Funderburke
+ Slava        | Medvedenko         | Double Technical - Medvedenko, Garnett
+ Chimezie     | Metu               |  Foul : Double Personal - Metu (2 PF), Garuba (2 PF) (A.Smith)
+ Khris        | Middleton          | Double Technical - Middleton, Walker
+ Khris        | Middleton          | Double Technical
+ Khris        | Middleton          | Double Technical - Middleton, Booker (M.Callahan)
+ Khris        | Middleton          | Double Technical - Middleton, Jefferson (K.Lane)
+ Khris        | Middleton          | Double Technical - Middleton, Griffin
+ Khris        | Middleton          | 
+ Khris        | Middleton          | Double Technical
+ Khris        | Middleton          | Double Technical - Middleton, Thomas
+ Darius       | Miles              | Double Technical - Miles, Ferry
+ Andre        | Miller             | Double Technical - Miller, Walker
+ Brad         | Miller             |  Foul : Double Personal - Miller (1 PF), Stackhouse (1 PF)
+ Brad         | Miller             |  Foul : Double Personal - Miller (1 PF), Ginobili (3 PF)
+ Brad         | Miller             | 
+ Brad         | Miller             |  Foul : Double Personal - Miller (6 PF), Davis (3 PF)
+ Brad         | Miller             | 
+ Brad         | Miller             |  Foul : Double Personal - Miller (4 PF), Horford (5 PF)
+ Mike         | Miller             | Double Technical - Miller, Hansbrough
+ Quincy       | Miller             | 
+ Chris        | Mills              | Double Technical - Mills, Robinson
+ Shake        | Milton             | 
+ Yao          | Ming               |  Foul : Double Personal - Yao (1 PF), Amaechi (1 PF)
+ Yao          | Ming               | 
+ Yao          | Ming               | Double Technical - Yao, West
+ Nikola       | Mirotic            | Double Technical - Mirotic, Crowder (J.Williams)
+ Nikola       | Mirotic            | Double Technical - Mirotic, Pachulia (M.McCutchen)
+ Nikola       | Mirotic            | Double Technical - Mirotic, Ja. Green (K.Scott)
+ Nikola       | Mirotic            |  Foul : Double Personal - Mirotic (3 PF), Caldwell-Pope (1 PF) (D.Richardson)
+ Nikola       | Mirotic            | Double Technical - Mirotic, Hollis-Jefferson (T.Washington)
+ Sam          | Mitchell           |  Foul : Double Personal - Mitchell (2 PF), McDyess (3 PF)
+ Sam          | Mitchell           | Double Technical - Mitchell, Barry
+ Sam          | Mitchell           |  Foul : Double Personal - Mitchell (2 PF), Ilgauskas (4 PF)
+ Sam          | Mitchell           | Double Technical - Mitchell, Anthony
+ Sam          | Mitchell           |  Foul : Double Personal - Mitchell (1 PF), Anthony (1 PF)
+ Cuttino      | Mobley             | Double Technical - Mobley, Christie
+ Eric         | Montross           |  Foul : Double Personal - Montross (3 PF), Willis (3 PF)
+ Mikki        | Moore              |  Foul : Double Personal - Moore (1 PF), Potapenko (3 PF)
+ Mikki        | Moore              | 
+ Ja           | Morant             | Double Technical - Morant, Bradley (K.Fitzgerald)
+ Eric         | Moreland           | Double Technical
+ Adam         | Morrison           | Double Technical - Morrison, Bargnani
+ Anthony      | Morrow             | Double Technical - Morrow, Marc Morris (P.Fraher)
+ Donatas      | Motiejunas         |  Foul : Double Personal - Motiejunas (3 PF), Griffin (4 PF) (M.McCutchen)
+ Donatas      | Motiejunas         |  Foul : Double Personal - Motiejunas (3 PF), Jordan (2 PF)
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (1 PF), A. Davis (2 PF)
+ Alonzo       | Mourning           | Double Technical - Mourning, Mohammed
+ Alonzo       | Mourning           | 
+ Alonzo       | Mourning           | 
+ Alonzo       | Mourning           | Double Technical - Mourning, Johnson
+ Alonzo       | Mourning           | Double Technical - Mourning, Bender
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (2 PF), Mohammed (3 PF)
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (2 PF), Rogers (3 PF)
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (4 PF), Geiger (3 PF)
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (5 PF), Thorpe (3 PF)
+ Alonzo       | Mourning           | Double Technical - Mourning, B. Williams
+ Alonzo       | Mourning           | Double Technical - Mourning, Cassell
+ Alonzo       | Mourning           | Double Technical - Mourning, Outlaw
+ Alonzo       | Mourning           | Double Technical - Mourning, Potapenko
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (3 PF), Hill (2 PF)
+ Alonzo       | Mourning           | Double Technical - Mourning, Mihm
+ Alonzo       | Mourning           | Double Technical - Mourning, Dalembert
+ Alonzo       | Mourning           | Double Technical - Mourning, Rodman
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (4 PF), Dampier (5 PF)
+ Alonzo       | Mourning           | Double Technical - Mourning, Johnson
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (2 PF), Geiger (2 PF)
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (1 PF), Davis (2 PF)
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (4 PF), Seikaly (5 PF)
+ Alonzo       | Mourning           |  Foul : Double Personal - Mourning (2 PF), Rodman (1 PF)
+ Timofey      | Mozgov             | 
+ Timofey      | Mozgov             | Double Technical - Mozgov, Pachulia
+ Byron        | Mullens            | Double Technical - Mullens, Speights
+ Byron        | Mullens            | Double Technical - Mullens, Booker
+ Gheorghe     | Muresan            | Double Technical - Muresan, Rodman
+ Gheorghe     | Muresan            | Double Technical - Muresan, Rodman
+ Gheorghe     | Muresan            |  Foul : Double Personal - Muresan (3 PF), Kleine (1 PF)
+ Jamal        | Murray             | 
+ Jamal        | Murray             | Double Technical - Murray, Kanter (J.Capers)
+ Bostjan      | Nachbar            |  Foul : Double Personal - Nachbar (1 PF), Wallace (4 PF)
+ Eduardo      | Najera             | Double Technical - Najera, Barnes
+ Steve        | Nash               | Double Technical - Nash, McGrady
+ Steve        | Nash               | Double Technical - Nash, Ariza
+ Maurice      | Ndour              | Double Technical - Ndour, Harrell (N.Buchert)
+ Ira          | Newble             | Double Technical - Newble, Sweetney
+ Johnny       | Newman             |  Foul : Double Personal - Newman (1 PF), Askew (2 PF)
+ Johnny       | Newman             | 
+ Johnny       | Newman             | Double Technical - Newman, Sprewell
+ Georges      | Niang              | Double Technical - Niang, Collins (M.Kogut)
+ Andrew       | Nicholson          | Double Technical - Nicholson, Mullens
+ Joakim       | Noah               | Double Technical - Noah, Brooks
+ Joakim       | Noah               | 
+ Joakim       | Noah               | Double Technical - Noah, Henson (B.Spooner)
+ Joakim       | Noah               |  Foul : Double Personal - Noah (5 PF), Hansbrough (3 PF)
+ Joakim       | Noah               | Double Technical - Noah, Ariza
+ Joakim       | Noah               | 
+ Dirk         | Nowitzki           | Double Technical - Nowitzki, World Peace
+ Dirk         | Nowitzki           | Double Technical - Nowitzki, Szczerbiak
+ Dirk         | Nowitzki           | Double Technical - Nowitzki, Humphries
+ Dirk         | Nowitzki           | Double Technical - Nowitzki, Hill
+ Dirk         | Nowitzki           | Double Technical - Nowitzki, Garnett
+ Dirk         | Nowitzki           | Double Technical - Nowitzki, Garnett
+ Dirk         | Nowitzki           |  Foul : Double Personal - Nowitzki (5 PF), Williams (2 PF)
+ Dirk         | Nowitzki           |  Foul : Double Personal - Nowitzki (2 PF), Porter (1 PF)
+ Dirk         | Nowitzki           | Double Technical - Nowitzki, Mohammed
+ Jusuf        | Nurkic             | 
+ Jusuf        | Nurkic             | Double Technical - Nurkic, Green (J.Tiven)
+ Jusuf        | Nurkic             | Double Technical - Nurkic, Oladipo (R.Mott)
+ Jermaine     | O'Neal             | Double Technical - O'Neal, Harrington
+ Jermaine     | O'Neal             | Double Technical - O'Neal, Ilgauskas
+ Jermaine     | O'Neal             | 
+ Jermaine     | O'Neal             |  Foul : Double Personal - O'Neal (4 PF), Allen (4 PF)
+ Jermaine     | O'Neal             | Double Technical - O'Neal, Ostertag
+ Jermaine     | O'Neal             |  Foul : Double Personal - O'Neal (2 PF), Van Horn (1 PF)
+ Jermaine     | O'Neal             | 
+ Jermaine     | O'Neal             |  Foul : Double Personal - O'Neal (3 PF), Scott (5 PF)
+ Jermaine     | O'Neal             |  Foul : Double Personal - O'Neal (2 PF), Oakley (2 PF)
+ Jermaine     | O'Neal             | Double Technical - O'Neal, Anderson
+ Jermaine     | O'Neal             | Double Technical - O'Neal, Walker
+ Jermaine     | O'Neal             | Double Technical - O'Neal, McCoy
+ Jermaine     | O'Neal             | 
+ Jermaine     | O'Neal             | Double Technical - O'Neal, Walker
+ Jermaine     | O'Neal             |  Foul : Double Personal - O'Neal (5 PF), Martin (5 PF)
+ Jermaine     | O'Neal             |  Foul : Double Personal - O'Neal (4 PF), Divac (3 PF)
+ Jermaine     | O'Neal             | Double Technical - O'Neal, Williamson
+ Jermaine     | O'Neal             | Double Technical - O'Neal, Brown
+ Shaquille    | O'Neal             |  Foul : Double Personal - O'Neal (1 PF), Willis (4 PF)
+ Shaquille    | O'Neal             |  Foul : Double Personal - O'Neal (2 PF), Robinson (3 PF)
+ Shaquille    | O'Neal             | Double Technical - O'Neal, Walker
+ Shaquille    | O'Neal             | Double Technical - O'Neal, Miller
+ Shaquille    | O'Neal             | Double Technical - O'Neal, Olowokandi
+ Shaquille    | O'Neal             | Double Technical - O'Neal, Bibby
+ Shaquille    | O'Neal             | Double Technical - O'Neal, Smith
+ Shaquille    | O'Neal             | Double Technical - O'Neal, Dudley
+ Shaquille    | O'Neal             | Double Technical - O'Neal, Olowokandi
+ Shaquille    | O'Neal             | Double Technical - O'Neal, Williams
+ Charles      | Oakley             |  Foul : Double Personal - Oakley (1 PF), Dudley (1 PF)
+ Charles      | Oakley             |  Foul : Double Personal - Oakley (5 PF), Willis (2 PF)
+ Charles      | Oakley             |  Foul : Double Personal - Oakley (2 PF), Rodman (1 PF)
+ Charles      | Oakley             | Double Technical - Oakley, Smith
+ Charles      | Oakley             |  Foul : Double Personal - Oakley (2 PF), Williamson (1 PF)
+ Charles      | Oakley             | Double Technical - Oakley, Mourning
+ Charles      | Oakley             | Double Technical - Oakley, Brown
+ Charles      | Oakley             | Double Technical - Oakley, Pippen
+ Charles      | Oakley             | Double Technical - Oakley, A. Davis
+ Charles      | Oakley             |  Foul : Double Personal - Oakley (3 PF), Mutombo (3 PF)
+ Charles      | Oakley             | Double Technical - Oakley, Davis
+ Greg         | Oden               | 
+ Lamar        | Odom               | Double Technical - Odom, West
+ Lamar        | Odom               | Double Technical - Odom, Ibaka
+ Lamar        | Odom               | Double Technical - Odom, Aldridge
+ Lamar        | Odom               | Double Technical - Odom, M. Williams
+ Lamar        | Odom               | Double Technical - Odom, Wallace
+ Lamar        | Odom               | Double Technical - Odom, O'Neal
+ Lamar        | Odom               | 
+ Emeka        | Okafor             |  Foul : Double Personal - Okafor (2 PF), Odom (2 PF)
+ Emeka        | Okafor             | 
+ Hakeem       | Olajuwon           | 
+ Hakeem       | Olajuwon           |  Foul : Double Personal - Olajuwon (1 PF), Vrankovic (1 PF)
+ Hakeem       | Olajuwon           |  Foul : Double Personal - Olajuwon (4 PF), Perdue (4 PF)
+ Michael      | Olowokandi         |  Foul : Double Personal - Olowokandi (4 PF), Bradley (2 PF)
+ Michael      | Olowokandi         |  Foul : Double Personal - Olowokandi (2 PF), Howard (3 PF)
+ Michael      | Olowokandi         | Double Technical - Olowokandi, Garnett
+ Michael      | Olowokandi         |  Foul : Double Personal - Olowokandi (1 PF), Davis (3 PF)
+ Kelly        | Oubre Jr.          | Double Technical - Oubre Jr., Lillard (J.Conley)
+ Zaza         | Pachulia           | Double Technical - Pachulia, Davis
+ Zaza         | Pachulia           | 
+ Zaza         | Pachulia           | Double Technical - Pachulia, J. Richardson
+ Zaza         | Pachulia           | Double Technical - Pachulia, Howard
+ Zaza         | Pachulia           | 
+ Zaza         | Pachulia           | Double Technical - Pachulia, Garnett
+ Zaza         | Pachulia           |  Foul : Double Personal - Pachulia (3 PF), Thomas (3 PF)
+ Zaza         | Pachulia           | Double Technical - Pachulia, O'Neal
+ Georgios     | Papagiannis        | Double Technical - Papagiannis, Bender (M.Davis)
+ Georgios     | Papagiannis        |  Foul : Double Personal - Papagiannis (4 PF), Nurkic (5 PF) (G.Zielinski)
+ Tony         | Parker             |  Foul : Double Personal - Parker (3 PF), Fisher (1 PF)
+ Tony         | Parker             | 
+ Tony         | Parker             | Double Technical - Parker, Brunson
+ Patrick      | Patterson          | Double Technical - Patterson, Crawford (M.Smith)
+ Patrick      | Patterson          | Double Technical - Patterson, Thompson (S.Foster)
+ Elfrid       | Payton             | Double Technical - Payton, Bertans (Z.Zarba)
+ Gary         | Payton             | Double Technical - Payton, Williams
+ Gary         | Payton             | Double Technical - Payton, Williams
+ Gary         | Payton             | Double Technical - Payton, Drexler
+ Gary         | Payton             |  Foul : Double Personal - Payton (2 PF), Van Exel (4 PF)
+ Gary         | Payton             | Double Technical - Payton, Lopez
+ Gary         | Payton             | Double Technical - Payton, Maxwell
+ Gary         | Payton             | Double Technical - Payton, Cleaves
+ Gary         | Payton             | Double Technical - Payton, Murphy
+ Gary         | Payton             | Double Technical - Payton, Tinsley
+ Gary         | Payton             | Double Technical - Payton, McCloud
+ Gary         | Payton             | Double Technical - Payton, Bryant
+ Gary         | Payton             | Double Technical - Payton, Johnson
+ Gary         | Payton             | Double Technical - Payton, Harvey
+ Gary         | Payton             | Double Technical - Payton, C. Butler
+ Gary         | Payton             | Double Technical - Payton, Lenard
+ Gary         | Payton II          | 
+ Anthony      | Peeler             | Double Technical - Peeler, Majerle
+ Anthony      | Peeler             | Double Technical - Peeler, Payton
+ Nikola       | Pekovic            |  Foul : Double Personal - Pekovic (1 PF), Ibaka (2 PF) (L.Richardson)
+ Kendrick     | Perkins            | Double Technical - Perkins, Frye
+ Kendrick     | Perkins            | Double Technical - Perkins, Mason
+ Kendrick     | Perkins            | Double Technical - Perkins, O'Neal
+ Kendrick     | Perkins            | 
+ Kendrick     | Perkins            | 
+ Kendrick     | Perkins            | Double Technical - Perkins, Ilgauskas
+ Kendrick     | Perkins            | Double Technical - Perkins, Smith
+ Kendrick     | Perkins            | 
+ Kendrick     | Perkins            | 
+ Kendrick     | Perkins            | 
+ Kendrick     | Perkins            | Double Technical - Perkins, Miller
+ Kendrick     | Perkins            | Double Technical - Perkins, O'Neal
+ Kendrick     | Perkins            | Double Technical - Perkins, Iverson
+ Kendrick     | Perkins            | Double Technical - Perkins, Howard
+ Kendrick     | Perkins            | 
+ Wesley       | Person             |  Foul : Double Personal - Person (3 PF), Snow (2 PF)
+ Johan        | Petro              | Double Technical - Petro, Perkins
+ Paul         | Pierce             | Double Technical - Pierce, Thomas
+ Paul         | Pierce             | Double Technical - Pierce, Jackson
+ Paul         | Pierce             | Double Technical - Pierce, Simmons
+ Paul         | Pierce             | Double Technical - Pierce, Tinsley
+ Paul         | Pierce             |  Foul : Double Personal - Pierce (2 PF), Foster (2 PF)
+ Paul         | Pierce             | Double Technical - Pierce, Blatche
+ Paul         | Pierce             |  Foul : Double Personal - Pierce (3 PF), McKie (5 PF)
+ Paul         | Pierce             | Double Technical - Pierce, White
+ Paul         | Pierce             | Double Technical - Pierce, Head
+ Paul         | Pierce             | Double Technical - Pierce, D. Jones
+ Paul         | Pierce             | Double Technical - Pierce, Pavlovic
+ Paul         | Pierce             | Double Technical - Pierce, Garnett
+ Paul         | Pierce             |  Foul : Double Personal - Pierce (2 PF), Gill (1 PF)
+ Scottie      | Pippen             |  Foul : Double Personal - Pippen (4 PF), Stackhouse (2 PF)
+ Scottie      | Pippen             | Double Technical - Pippen, Mourning
+ Scottie      | Pippen             |  Foul : Double Personal - Pippen (1 PF), Mills (2 PF)
+ Scottie      | Pippen             |  Foul : Double Personal - Pippen (1 PF), Garnett (1 PF)
+ Scottie      | Pippen             | Double Technical - Pippen, Stockton
+ Scot         | Pollard            |  Foul : Double Personal - Pollard (4 PF), Fortson (3 PF)
+ Scot         | Pollard            | Double Technical - Pollard, Douglas
+ Scot         | Pollard            | Double Technical - Pollard, Rogers
+ Scot         | Pollard            |  Foul : Double Personal - Pollard (1 PF), Barry (1 PF)
+ Bobby        | Portis             |  Foul : Double Personal - Portis (2 PF), Adebayo (3 PF) (L.Wood)
+ James        | Posey              | Double Technical - Posey, Harpring
+ James        | Posey              | Double Technical - Posey, Smith
+ Vitaly       | Potapenko          | Double Technical - Potapenko, DeClercq
+ Vitaly       | Potapenko          | Double Technical - Potapenko, Ostertag
+ Vitaly       | Potapenko          | Double Technical - Potapenko, Garrity
+ Vitaly       | Potapenko          | Double Technical - Potapenko, Dampier
+ Vitaly       | Potapenko          | Double Technical - Potapenko, Davis
+ Vitaly       | Potapenko          | Double Technical - Potapenko, Garnett
+ Leon         | Powe               | Double Technical - Powe, Powell
+ Leon         | Powe               | Double Technical - Powe, Randolph
+ Leon         | Powe               | 
+ Tayshaun     | Prince             | 
+ Gabe         | Pruitt             | Double Technical - Pruitt, Speights
+ Joel         | Przybilla          |  Foul : Double Personal - Przybilla (2 PF), Batista (3 PF)
+ Joel         | Przybilla          |  Foul : Double Personal - Przybilla (1 PF), Evans (1 PF)
+ Joel         | Przybilla          | Double Technical - Przybilla, Bogut
+ Joel         | Przybilla          | Double Technical - Przybilla, Howard
+ Joel         | Przybilla          | Double Technical - Przybilla, Boozer
+ Joel         | Przybilla          | Double Technical - Przybilla, Boozer
+ Joel         | Przybilla          | Double Technical - Przybilla, O'Neal
+ Joel         | Przybilla          |  Foul : Double Personal - Przybilla (4 PF), Olowokandi (4 PF)
+ Joel         | Przybilla          | Double Technical - Przybilla, O'Neal
+ Joel         | Przybilla          | Double Technical - Przybilla, Pierce
+ Joel         | Przybilla          | Double Technical - Przybilla, Smith
+ Joel         | Przybilla          | Double Technical - Przybilla, Walton
+ Joel         | Przybilla          | Double Technical - Przybilla, Ekezie
+ Joel         | Przybilla          | Double Technical - Przybilla, Stoudemire
+ Joel         | Przybilla          | Double Technical - Przybilla, Bryant
+ Joel         | Przybilla          |  Foul : Double Personal - Przybilla (3 PF), Najera (4 PF)
+ Joel         | Przybilla          |  Foul : Double Personal - Przybilla (4 PF), Armstrong (2 PF)
+ Joel         | Przybilla          |  Foul : Double Personal - Przybilla (3 PF), Potapenko (1 PF)
+ Joel         | Przybilla          |  Foul : Double Personal - Przybilla (3 PF), Brown (1 PF)
+ Joel         | Przybilla          |  Foul : Double Personal - Przybilla (2 PF), Evans (2 PF)
+ Joel         | Przybilla          | Double Technical - Przybilla, Wade
+ Joel         | Przybilla          | 
+ Joel         | Przybilla          | 
+ Joel         | Przybilla          | Double Technical - Przybilla, Bradley
+ Vladimir     | Radmanovic         |  Foul : Double Personal - Radmanovic (3 PF), Bonner (4 PF)
+ Vladimir     | Radmanovic         | Double Technical - Radmanovic, Curry
+ Zach         | Randolph           |  Foul : Double Personal - Randolph (3 PF), Green (4 PF) (M.McCutchen)
+ Zach         | Randolph           |  Foul : Double Personal - Randolph (2 PF), Adrien (2 PF)
+ Zach         | Randolph           |  Foul : Double Personal - Randolph (2 PF), Griffin (3 PF)
+ Zach         | Randolph           |  Foul : Double Personal - Randolph (2 PF), Nurkic (3 PF) (D.Richardson)
+ Zach         | Randolph           | 
+ Zach         | Randolph           |  Foul : Double Personal - Randolph (3 PF), Cousins (5 PF) (L.Richardson)
+ Zach         | Randolph           | 
+ Zach         | Randolph           | Double Technical - Randolph, Nene
+ Theo         | Ratliff            |  Foul : Double Personal - Ratliff (3 PF), McDyess (1 PF)
+ Theo         | Ratliff            |  Foul : Double Personal - Ratliff (3 PF), Reid (3 PF)
+ Theo         | Ratliff            | 
+ Austin       | Reaves             | 
+ Zeljko       | Rebraca            |  Foul : Double Personal - Rebraca (4 PF), Przybilla (4 PF)
+ Zeljko       | Rebraca            | Double Technical - Rebraca, Przybilla
+ Zeljko       | Rebraca            | Double Technical - Rebraca, Brand
+ Zeljko       | Rebraca            |  Foul : Double Personal - Rebraca (3 PF), Divac (3 PF)
+ Zeljko       | Rebraca            |  Foul : Double Personal - Rebraca (1 PF), Mourning (2 PF)
+ Michael      | Redd               |  Foul : Double Personal - Redd (2 PF), Jones (3 PF)
+ Michael      | Redd               |  Foul : Double Personal - Redd (1 PF), Bogans (3 PF)
+ Bryant       | Reeves             |  Foul : Double Personal - Reeves (4 PF), Roberts (3 PF)
+ Bryant       | Reeves             |  Foul : Double Personal - Reeves (1 PF), Curley (1 PF)
+ Don          | Reid               |  Foul : Double Personal - Reid (3 PF), D. Davis (2 PF)
+ Don          | Reid               | Double Technical - Reid, Bradley
+ Don          | Reid               | Double Technical - Reid, D. Davis
+ Naz          | Reid               | Double Technical - Reid, Portis (J.Tiven)
+ Naz          | Reid               |  Foul : Double Personal - Reid (2 PF), Eubanks (4 PF) (M.Ervin)
+ Jason        | Richardson         | 
+ Jason        | Richardson         | Double Technical - Richardson, Van Horn
+ Jason        | Richardson         | Double Technical - Richardson, White
+ Jason        | Richardson         |  Foul : Double Personal - Richardson (1 PF), Johnson (2 PF)
+ Josh         | Richardson         |  Foul : Double Personal - Richardson (4 PF), Zeller (3 PF) (K.Fitzgerald)
+ Luke         | Ridnour            | Double Technical - Ridnour, Cassell
+ Bernard      | Robinson           | Double Technical - Robinson, Turkoglu
+ Chris        | Robinson           |  Foul : Double Personal - Robinson (3 PF), Jackson (3 PF)
+ Clifford     | Robinson           |  Foul : Double Personal - Robinson (3 PF), Willis (3 PF)
+ Clifford     | Robinson           |  Foul : Double Personal - C. Robinson (2 PF), Horry (2 PF)
+ David        | Robinson           |  Foul : Double Personal - Robinson (3 PF), Foster (3 PF)
+ David        | Robinson           | 
+ David        | Robinson           |  Foul : Double Personal - Robinson (2 PF), Reid (2 PF)
+ David        | Robinson           | 
+ David        | Robinson           | Double Technical - Robinson, Malone
+ David        | Robinson           |  Foul : Double Personal - Robinson (3 PF), Magloire (5 PF)
+ David        | Robinson           |  Foul : Double Personal - Robinson (5 PF), Gatling (3 PF)
+ David        | Robinson           |  Foul : Double Personal - Robinson (5 PF), Malone (5 PF)
+ David        | Robinson           | 
+ Duncan       | Robinson           | 
+ Glenn        | Robinson           |  Foul : Double Personal - Robinson (3 PF), Mullin (2 PF)
+ Glenn        | Robinson           |  Foul : Double Personal - Robinson (3 PF), Mullin (2 PF)
+ Glenn        | Robinson           | Double Technical - Robinson, Payton
+ Mitchell     | Robinson           | Double Technical - Robinson, Davis (K.Cutler)
+ Mitchell     | Robinson           | 
+ Mitchell     | Robinson           | 
+ Mitchell     | Robinson           | 
+ Mitchell     | Robinson           | 
+ Thomas       | Robinson           | Double Technical - Robinson, Marion
+ Thomas       | Robinson           | Double Technical - Robinson, Len
+ Jalen        | Rose               |  Foul : Double Personal - Rose (4 PF), Glover (2 PF)
+ Jalen        | Rose               |  Foul : Double Personal - Rose (3 PF), Van Horn (4 PF)
+ Malik        | Rose               |  Foul : Double Personal - Rose (2 PF), Kukoc (1 PF)
+ Malik        | Rose               | 
+ Malik        | Rose               |  Foul : Double Personal - Rose (2 PF), Evans (2 PF)
+ Malik        | Rose               | Double Technical - Rose, Potapenko
+ Malik        | Rose               |  Foul : Double Personal - Rose (1 PF), Cato (1 PF)
+ Malik        | Rose               |  Foul : Double Personal - Rose (3 PF), Harrington (2 PF)
+ Malik        | Rose               | Double Technical - Rose, Odom
+ Malik        | Rose               |  Foul : Double Personal - Rose (4 PF), Mason (2 PF)
+ Malik        | Rose               |  Foul : Double Personal - Rose (2 PF), Foster (4 PF)
+ Malik        | Rose               |  Foul : Double Personal - Rose (3 PF), Nowitzki (4 PF)
+ Brandon      | Roy                | Double Technical - Roy, West
+ Terry        | Rozier             | Double Technical - Rozier, Allen (S.Wright)
+ Arvydas      | Sabonis            |  Foul : Double Personal - Sabonis (5 PF), Williams (2 PF)
+ Arvydas      | Sabonis            | Double Technical - Sabonis, O'Neal
+ Arvydas      | Sabonis            | 
+ Arvydas      | Sabonis            | Double Technical - Sabonis, Ward
+ JaKarr       | Sampson            | Double Technical - Sampson, Garnett (C.Kirkland)
+ Brian        | Scalabrine         | Double Technical - Scalabrine, Barnes
+ Brian        | Scalabrine         | 
+ Admiral      | Schofield          | Double Technical - Schofield, White (L.Wood)
+ Detlef       | Schrempf           | Double Technical - Schrempf, Baker
+ Detlef       | Schrempf           | Double Technical - Schrempf, Brown
+ Detlef       | Schrempf           |  Foul : Double Personal - Schrempf (1 PF), Allen (1 PF)
+ Detlef       | Schrempf           | Double Technical - Schrempf, Coleman
+ Detlef       | Schrempf           |  Foul : Double Personal - Schrempf (2 PF), Hammonds (2 PF)
+ Detlef       | Schrempf           |  Foul : Double Personal - Schrempf (4 PF), Stockton (3 PF)
+ Detlef       | Schrempf           |  Foul : Double Personal - Schrempf (1 PF), Gatling (1 PF)
+ Dennis       | Schroder           | Double Technical - Schroder, D. Green (J.Goble)
+ Byron        | Scott              |  Foul : Double Personal - Scott (1 PF), Hornacek (1 PF)
+ Dennis       | Scott              | Double Technical - Scott, Oakley
+ Mike         | Scott              | Double Technical - Scott, Shaw. Williams
+ Mike         | Scott              | Double Technical - Scott, Scola
+ Mike         | Scott              | Double Technical - Scott, Booker (J.Goble)
+ Mike         | Scott              | Double Technical - Scott, G. Hill
+ Mike         | Scott              | Double Technical - Scott, G. Hill
+ Malik        | Sealy              |  Foul : Double Personal - Sealy (4 PF), Grant (3 PF)
+ Alperen      | Sengun             |  Foul : Double Personal - Sengun (4 PF), Haslem (2 PF) (D.Taylor)
+ Brian        | Shaw               |  Foul : Double Personal - Shaw (2 PF), Patterson (1 PF)
+ Pascal       | Siakam             | 
+ Pascal       | Siakam             | Double Technical - Siakam, Gordon (A.Moyer-Gleich)
+ Pascal       | Siakam             | 
+ Bobby        | Simmons            | Double Technical - Simmons, Miles
+ Bobby        | Simmons            | Double Technical - Simmons, O'Neal
+ Henry        | Sims               | 
+ Craig        | Smith              | Double Technical - Smith, Cook
+ Craig        | Smith              | Double Technical - Smith, Jackson
+ Jabari       | Smith              | Double Technical - Smith, Strickland
+ Jabari       | Smith              | Double Technical - Smith, Ford
+ Joe          | Smith              |  Foul : Double Personal - Smith (2 PF), Collins (1 PF)
+ Joe          | Smith              | Double Technical - Smith, Divac
+ Michael      | Smith              | Double Technical - Smith, Stockton
+ Michael      | Smith              |  Foul : Double Personal - Smith (3 PF), Wingate (3 PF)
+ Michael      | Smith              |  Foul : Double Personal - Smith (3 PF), Wallace (5 PF)
+ Nolan        | Smith              | Double Technical - N. Smith, Telfair
+ Steven       | Smith              |  Foul : Double Personal - Smith (1 PF), Grant (2 PF)
+ Steven       | Smith              |  Foul : Double Personal - Smith (2 PF), Miller (2 PF)
+ Steven       | Smith              |  Foul : Double Personal - Smith (2 PF), Miller (3 PF)
+ Steven       | Smith              |  Foul : Double Personal - Smith (2 PF), M. Curry (1 PF)
+ Steven       | Smith              | Double Technical - Smith, Person
+ Steven       | Smith              |  Foul : Double Personal - Smith (3 PF), Allen (5 PF)
+ Steven       | Smith              | Double Technical - Smith, Gill
+ Dennis       | Smith Jr.          | Double Technical - Smith Jr., Schroder (A.Smith)
+ Jabari       | Smith Jr.          | Double Technical - Smith Jr., Murray (M.Ervin)
+ Rik          | Smits              |  Foul : Double Personal - Smits (2 PF), Dudley (1 PF)
+ Rik          | Smits              |  Foul : Double Personal - Smits (2 PF), Campbell (2 PF)
+ Rik          | Smits              | Double Technical - Smits, Thomas
+ Rik          | Smits              | Double Technical - Smits, Geiger
+ Rik          | Smits              | 
+ Rik          | Smits              | Double Technical - Smits, Thomas
+ Rik          | Smits              |  Foul : Double Personal - Smits (1 PF), Thomas (4 PF)
+ Rik          | Smits              |  Foul : Double Personal - Smits (6 PF), Ilgauskas (5 PF)
+ Eric         | Snow               | 
+ Darius       | Songaila           | Double Technical - Songaila, Johnson
+ Jerry        | Stackhouse         | Double Technical - Stackhouse, Potapenko
+ Jerry        | Stackhouse         |  Foul : Double Personal - Stackhouse (1 PF), Traylor (1 PF)
+ Jerry        | Stackhouse         | Double Technical - Stackhouse, Christie
+ John         | Starks             |  Foul : Double Personal - Starks (1 PF), Davis (1 PF)
+ John         | Starks             |  Foul : Double Personal - Starks (2 PF), Smith (2 PF)
+ Lamar        | Stevens            | Double Technical - Stevens, Alvarado (M.Davis)
+ Isaiah       | Stewart            | 
+ Isaiah       | Stewart            | 
+ Isaiah       | Stewart            | 
+ Isaiah       | Stewart            | 
+ Isaiah       | Stewart            | Double Technical - Stewart, Griffin (E.Lewis)
+ Isaiah       | Stewart            | 
+ John         | Stockton           |  Foul : Double Personal - Stockton (3 PF), Booth (3 PF)
+ John         | Stockton           | Double Technical - Stockton, Kerr
+ John         | Stockton           |  Foul : Double Personal - Stockton (3 PF), Maxwell (5 PF)
+ Peja         | Stojakovic         | Double Technical - Stojakovic, Harpring
+ Amar'e       | Stoudemire         | Double Technical - Stoudemire, Perkins
+ Amar'e       | Stoudemire         | 
+ Amar'e       | Stoudemire         | 
+ Amar'e       | Stoudemire         | Double Technical - Stoudemire, West
+ Amar'e       | Stoudemire         | 
+ Amar'e       | Stoudemire         | 
+ Amar'e       | Stoudemire         | Double Technical - Stoudemire, Garnett
+ Derek        | Strong             | Double Technical - Strong, Robinson
+ Derek        | Strong             |  Foul : Double Personal - Strong (1 PF), DeClercq (1 PF)
+ Max          | Strus              | Double Technical - Strus, Williams (T.Brothers)
+ Jalen        | Suggs              | 
+ Jalen        | Suggs              | 
+ Jalen        | Suggs              | Double Technical - Suggs, Allen (S.Twardoski)
+ Jalen        | Suggs              |  Foul : Double Personal - Suggs (1 PF), Ball (2 PF) (M.Myers)
+ Bob          | Sura               |  Foul : Double Personal - Sura (3 PF), Christie (3 PF)
+ Bob          | Sura               |  Foul : Double Personal - Sura (1 PF), Whitney (1 PF)
+ Bob          | Sura               |  Foul : Double Personal - Sura (3 PF), Starks (2 PF)
+ Bob          | Sura               |  Foul : Double Personal - Sura (3 PF), Long (2 PF)
+ Michael      | Sweetney           |  Foul : Double Personal - Sweetney (5 PF), Jackson (3 PF)
+ Stromile     | Swift              |  Foul : Double Personal - Swift (2 PF), Mihm (3 PF)
+ Stromile     | Swift              | 
+ Stromile     | Swift              | Double Technical - Swift, Jackson
+ Wally        | Szczerbiak         | Double Technical - Szczerbiak, Howard
+ Wally        | Szczerbiak         | Double Technical - Szczerbiak, Payton
+ Wally        | Szczerbiak         | Double Technical - Szczerbiak, Payton
+ Wally        | Szczerbiak         | Double Technical - Szczerbiak, Wells
+ Zan          | Tabak              |  Foul : Double Personal - Tabak (4 PF), Ewing (4 PF)
+ Zan          | Tabak              | Double Technical - Tabak, Gill
+ Dragan       | Tarlac             |  Foul : Double Personal - Tarlac (2 PF), Smith (2 PF)
+ Jae'Sean     | Tate               | 
+ Jayson       | Tatum              | 
+ Johnny       | Taylor             |  Foul : Double Personal - Taylor (1 PF), Mills (1 PF)
+ Jeff         | Teague             |  Foul : Double Personal - Teague (1 PF), Calderon (1 PF)
+ Jeff         | Teague             | Double Technical - Teague, Rivers
+ Jason        | Terry              | Double Technical - Terry, Bowen
+ Jason        | Terry              | Double Technical - Terry, Fernandez
+ Jason        | Terry              | Double Technical - Terry, World Peace
+ Etan         | Thomas             | Double Technical - Thomas, Bogut
+ Etan         | Thomas             | Double Technical - Thomas, Newble
+ Matt         | Thomas             | 
+ Tim          | Thomas             |  Foul : Double Personal - Thomas (5 PF), Harpring (3 PF)
+ Tim          | Thomas             | Double Technical - Thomas, Bell
+ Jason        | Thompson           | 
+ Jason        | Thompson           | 
+ Klay         | Thompson           | 
+ Klay         | Thompson           | 
+ Klay         | Thompson           | Double Technical - Thompson, Gordon (S.Foster)
+ Klay         | Thompson           | 
+ JT           | Thor               |  Foul : Double Personal - Thor (1 PF), Schofield (1 PF) (G.Petraitis)
+ Al           | Thornton           |  Foul : Double Personal - Thornton (4 PF), Bonner (2 PF)
+ Karl-Anthony | Towns              |  Foul : Double Personal - Towns (2 PF), Jokic (2 PF) (R.Acosta)
+ Karl-Anthony | Towns              | 
+ Karl-Anthony | Towns              | 
+ Karl-Anthony | Towns              | 
+ Karl-Anthony | Towns              | Double Technical - Towns, Powell (D.Collins)
+ Karl-Anthony | Towns              | 
+ Karl-Anthony | Towns              | Double Technical - Towns, Harris (G.Petraitis)
+ Karl-Anthony | Towns              | 
+ Karl-Anthony | Towns              | Double Technical - Towns, Portis (N.Buchert)
+ Karl-Anthony | Towns              | Double Technical - Towns, Gay (M.Lindsay)
+ Karl-Anthony | Towns              |  Foul : Double Personal - Towns (1 PF), Jackson (1 PF) (R.Mott)
+ Robert       | Traylor            | Double Technical - Traylor, Douglas
+ Robert       | Traylor            | Double Technical - Traylor, King
+ Robert       | Traylor            | Double Technical - Traylor, Mason
+ Gary         | Trent              |  Foul : Double Personal - Trent (1 PF), Mohammed (3 PF)
+ Gary         | Trent              | Double Technical - Trent, O'Neal
+ Gary         | Trent              | Double Technical - Trent, Patterson
+ Jake         | Tsakalidis         | Double Technical - Tsakalidis, Duncan
+ Jake         | Tsakalidis         | 
+ Nikoloz      | Tskitishvili       |  Foul : Double Personal - Tskitishvili (2 PF), Rooks (1 PF)
+ Hedo         | Turkoglu           | Double Technical - Turkoglu, Marbury
+ Hedo         | Turkoglu           | Double Technical - Turkoglu, Chandler
+ Hedo         | Turkoglu           | Double Technical - Turkoglu, Ariza
+ Hedo         | Turkoglu           | Double Technical - Turkoglu, House
+ Hedo         | Turkoglu           | Double Technical - Turkoglu, Hassell
+ Hedo         | Turkoglu           | Double Technical - Turkoglu, Knight
+ Hedo         | Turkoglu           |  Foul : Double Personal - Turkoglu (4 PF), Anthony (4 PF)
+ Hedo         | Turkoglu           | Double Technical - Turkoglu, Frye
+ Evan         | Turner             |  Foul : Double Personal - Turner (2 PF), Hamilton (1 PF)
+ Evan         | Turner             | Double Technical - Turner, Durant
+ Myles        | Turner             | 
+ Myles        | Turner             | 
+ Myles        | Turner             | 
+ Myles        | Turner             | 
+ Myles        | Turner             | 
+ Myles        | Turner             | 
+ Ben          | Uzoh               | 
+ Jonas        | Valanciunas        |  Foul : Double Personal - Valanciunas (4 PF), Okongwu (3 PF) (J.Williams)
+ Jonas        | Valanciunas        | Double Technical - Valanciunas, Rivers (M.Ervin)
+ Jonas        | Valanciunas        | 
+ Keith        | Van Horn           |  Foul : Double Personal - Van Horn (4 PF), Strickland (4 PF)
+ Keith        | Van Horn           |  Foul : Double Personal - Van Horn (3 PF), Maxwell (2 PF)
+ Keith        | Van Horn           | Double Technical - Van Horn, Bradley
+ Keith        | Van Horn           | Double Technical - Van Horn, Williams
+ Charlie      | Villanueva         | Double Technical - Villanueva, Hollins
+ Charlie      | Villanueva         | Double Technical - Villanueva, Howard
+ Charlie      | Villanueva         | Double Technical - Villanueva, Garnett
+ Gabe         | Vincent            | 
+ Gabe         | Vincent            | Double Technical - Vincent, Anthony (D.Taylor)
+ Jake         | Voskuhl            | Double Technical - Voskuhl, Grant
+ Nikola       | Vucevic            | 
+ Nikola       | Vucevic            | 
+ Sasha        | Vujacic            | Double Technical - Vujacic, Dragic
+ Sasha        | Vujacic            | Double Technical - Vujacic, Udoka
+ Sasha        | Vujacic            | Double Technical - Vujacic, Richardson
+ Sasha        | Vujacic            | Double Technical - Vujacic, Snyder
+ Dean         | Wade               | 
+ Ish          | Wainright          | 
+ Antoine      | Walker             |  Foul : Double Personal - Walker (3 PF), Harris (3 PF)
+ Antoine      | Walker             | Double Technical - Walker, Kittles
+ Antoine      | Walker             | Double Technical - Walker, Stackhouse
+ Antoine      | Walker             | Double Technical - Walker, Williams
+ Antoine      | Walker             | Double Technical - Walker, Stackhouse
+ Antoine      | Walker             | Double Technical - Walker, Nowitzki
+ Antoine      | Walker             | Double Technical - Walker, Hardaway
+ Antoine      | Walker             | Double Technical - Walker, D. Davis
+ Antoine      | Walker             | Double Technical - Walker, Payton
+ Antoine      | Walker             | Double Technical - Walker, Johnson
+ Antoine      | Walker             | Double Technical - Walker, Mercer
+ Antoine      | Walker             |  Foul : Double Personal - Walker (2 PF), Thomas (4 PF)
+ Antoine      | Walker             |  Foul : Double Personal - Walker (1 PF), Russell (1 PF)
+ Antoine      | Walker             | Double Technical - Walker, Williamson
+ Antoine      | Walker             | Double Technical - Walker, Alston
+ Henry        | Walker             | Double Technical - Walker, Frye
+ Gerald       | Wallace            | Double Technical - Wallace, Roy
+ Gerald       | Wallace            | 
+ John         | Wallace            |  Foul : Double Personal - Wallace (2 PF), Davis (2 PF)
+ John         | Wallace            |  Foul : Double Personal - Wallace (2 PF), Ratliff (4 PF)
+ John         | Wallace            | Double Technical - Wallace, Mourning
+ John         | Wallace            | Double Technical - Wallace, Johnson
+ Luke         | Walton             | Double Technical - Walton, Scola
+ Earl         | Watson             |  Foul : Double Personal - Watson (2 PF), Robinson (4 PF)
+ Clar.        | Weatherspoon       |  Foul : Double Personal - Weatherspoon (2 PF), Howard (4 PF)
+ Bonzi        | Wells              | Double Technical - Wells, World Peace
+ Bonzi        | Wells              |  Foul : Double Personal - Wells (1 PF), Najera (2 PF)
+ Bonzi        | Wells              | Double Technical - Wells, Sprewell
+ Bonzi        | Wells              |  Foul : Double Personal - Wells (2 PF), Starks (5 PF)
+ Bonzi        | Wells              | Double Technical - Wells, Day
+ Bonzi        | Wells              | Double Technical - Wells, Malone
+ Bonzi        | Wells              |  Foul : Double Personal - Wells (2 PF), Ferry (2 PF)
+ Bonzi        | Wells              | Double Technical - Wells, Porter
+ Bonzi        | Wells              |  Foul : Double Personal - Wells (3 PF), Malone (2 PF)
+ Bonzi        | Wells              |  Foul : Double Personal - Wells (1 PF), Stoudemire (4 PF)
+ David        | Wesley             |  Foul : Double Personal - Wesley (3 PF), Stockton (3 PF)
+ David        | West               | Double Technical - West, Nowitzki
+ David        | West               | Double Technical - West, Przybilla
+ David        | West               | Double Technical - West, Odom
+ David        | West               | Double Technical - West, Krstic
+ Delonte      | West               | Double Technical - West, Augmon
+ Delonte      | West               | Double Technical - West, Gill
+ Hassan       | Whiteside          | Double Technical - Whiteside, Ja. Green (D.Guthrie)
+ Chris        | Whitney            | Double Technical - Whitney, Payton
+ Alan         | Williams           |  Foul : Double Personal - Williams (2 PF), Gobert (1 PF) (D.Collins)
+ Alan         | Williams           | Double Technical - Williams, Gibson (Z.Zarba)
+ Deron        | Williams           |  Foul : Double Personal - D. Williams (4 PF), Jackson (3 PF)
+ Deron        | Williams           | Double Technical - D. Williams, Jones
+ Frank        | Williams           | Double Technical - Williams, Jefferson
+ Grant        | Williams           | 
+ Grant        | Williams           |  Foul : Double Personal - Williams (1 PF), Jokic (2 PF) (J.Butler)
+ Marvin       | Williams           |  Foul : Double Personal - Williams (2 PF), Jackson (1 PF)
+ Marvin       | Williams           | Double Technical - Williams, Garnett
+ Marvin       | Williams           | Double Technical - M. Williams, Garnett
+ Mo           | Williams           | Double Technical - Williams, Warrick
+ Monty        | Williams           | Double Technical - Williams, Hardaway
+ Monty        | Williams           | Double Technical - Williams, Maxwell
+ Monty        | Williams           | 
+ Sean         | Williams           | 
+ Sean         | Williams           | 
+ Robert       | Williams III       | 
+ Robert       | Williams III       | 
+ Corliss      | Williamson         | Double Technical - Williamson, Stockton
+ Corliss      | Williamson         |  Foul : Double Personal - Williamson (3 PF), Fortson (2 PF)
+ Corliss      | Williamson         |  Foul : Double Personal - Williamson (1 PF), Fortson (1 PF)
+ Corliss      | Williamson         | Double Technical - Williamson, Anstey
+ Metta        | World Peace        | Double Technical - World Peace, Perkins
+ Metta        | World Peace        |  Foul : Double Personal - World Peace (3 PF), West (3 PF)
+ Metta        | World Peace        | Double Technical - World Peace, Pierce
+ Metta        | World Peace        | Double Technical - World Peace, Westbrook
+ Metta        | World Peace        |  Foul : Double Personal - World Peace (1 PF), Ibaka (1 PF)
+ Metta        | World Peace        | Double Technical - World Peace, James
+ Metta        | World Peace        |  Foul : Double Personal - World Peace (2 PF), Williams (4 PF)
+ Metta        | World Peace        | Double Technical - World Peace, Ginobili
+ Metta        | World Peace        | 
+ Metta        | World Peace        | Double Technical - World Peace, Pierce
+ Lorenzen     | Wright             | Double Technical - Wright, Mason
+ Lorenzen     | Wright             | 
+ Lorenzen     | Wright             | Double Technical - Wright, Bradley
+ Lorenzen     | Wright             | 
+ Lorenzen     | Wright             |  Foul : Double Personal - Wright (4 PF), Evans (2 PF)
+ Tony         | Wroten             | Double Technical - Wroten, Cunningham
+ Vincent      | Yarbrough          |  Foul : Double Personal - Yarbrough (2 PF), Bradley (1 PF)
+ Joe          | Young              |  Foul : Double Personal - J. Young (1 PF), Napier (1 PF) (G.Zielinski)
+ Joe          | Young              | Double Technical - J. Young, Jennings (Z.Zarba)
+ Trae         | Young              | Double Technical - Young, Smart (S.Wright)
+ Trae         | Young              | Double Technical - Young, Embiid (R.Mott)
+ Cody         | Zeller             | Double Technical - Zeller, Hartenstein (M.Davis)
+ Paul         | Zipser             | 
+ Ivica        | Zubac              | 
+ Ivica        | Zubac              | Double Technical - Zubac, Booker (S.Wright)
+ Ivica        | Zubac              | 
+ Ivica        | Zubac              | 
+(1444 rows)
+
